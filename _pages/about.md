@@ -2,33 +2,30 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Motto. Etc.
+subtitle: Researcher &amp; Technical Manager at <a href='#'>Frontier Innovations</a> · PhD candidate, University of Patras
 
 profile:
   align: right
   image: prof_pic.jpg
-  image_circular: false # crops the image to make it circular
+  image_circular: false # crops the image into a circle
   more_info: >
-    <p>555 your office number</p>
-    <p>123 your address street</p>
-    <p>Your City, State 12345</p>
+    <p>Athens &amp; Patras, Greece</p>
+    <p>kroubas@gmail.com</p>
 
 selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 
 announcements:
-  enabled: true # includes a list of news items
-  scrollable: true # adds a vertical scroll bar if there are more than 3 news items
-  limit: 5 # leave blank to include all the news in the `_news` folder
+  enabled: false
 
 latest_posts:
-  enabled: true
-  scrollable: true # adds a vertical scroll bar if there are more than 3 new posts items
-  limit: 3 # leave blank to include all the blog posts
+  enabled: false
 ---
 
-Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](https://www.reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
+I work at the intersection of human–computer interaction and applied machine learning. I started out in physics, and that still shapes how I think about behaviour — I treat eye movements, gaze, and blinks as measurable signals you can model and learn from.
 
-Put your address / P.O. box / other info right below your picture. You can also disable any of these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
+At [Frontier Innovations](#) and through my PhD at the University of Patras, I design and evaluate adaptive systems that draw on multimodal data — eye-tracking, EEG, and behavioural signals — to understand cognitive load, attention, and engagement. My published work ranges from physics-informed neural networks for gaze prediction to telling voluntary blinks apart from involuntary ones, alongside AI-assisted tools that help educators build their own courses.
 
-Link to your social media connections, too. This theme is set up to use [Font Awesome icons](https://fontawesome.com/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
+I'm comfortable across the whole arc of a project: experimental design, data collection, modelling in Python and PyTorch, and the UX evaluation that tells you whether any of it actually helped. Alongside the research, I coordinate EU-funded (Horizon) projects and mentor master's students through study design, analysis, and publication.
+
+If you're working on gaze, cognitive load, or human-centred AI — or just want to talk shop — feel free to [get in touch](mailto:kroubas@gmail.com).
