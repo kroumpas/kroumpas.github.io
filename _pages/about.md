@@ -27,4 +27,4 @@ At [Frontier Innovations](https://www.frontier-innovations.com/) and through my 
 
 I'm comfortable across the whole arc of a project: experimental design, data collection, modelling in Python and PyTorch, and the UX evaluation that tells you whether any of it actually helped. Alongside the research, I coordinate EU-funded (Horizon) projects and mentor master's students through study design, analysis, and publication.
 
-If you're working on gaze, cognitive load, or human-centred AI — or just want to talk shop — feel free to get in touch prefferably via LinkedIn
+If you're working on gaze, cognitive load, or human-centred AI — or just want to talk shop — feel free to get in touch!
