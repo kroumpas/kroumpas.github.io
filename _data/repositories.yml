@@ -3,7 +3,7 @@
 # Each renders as a card with its description, stars, and primary language.
 
 dataset_repos:
-  - kroumpas/gaze-eyetracking-dataset
+  - kroumpas/blink-detection-dataset-model
   # - kroumpas/blink-openness-dataset
   # - kroumpas/another-dataset
 
