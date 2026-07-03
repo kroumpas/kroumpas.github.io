@@ -9,8 +9,7 @@ profile:
   image: prof_pic.jpg
   image_circular: false # crops the image into a circle
   more_info: >
-    <p>Athens &amp; Patras, Greece</p>
-    <p>kroubas@gmail.com</p>
+    <p>Athens, Greece</p>
 
 selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
