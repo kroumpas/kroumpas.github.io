@@ -10,7 +10,6 @@ cv:
     - network: LinkedIn
       username: kroumpas
   address:
-    street: ""
     city: Athens
     region: Attica
     postalCode: ""
@@ -40,7 +39,7 @@ cv:
     Experience:
       - company: Frontier Innovations
         position: Researcher / Technical Manager
-        location: ""
+        location: Athens, Greece
         start_date: 2025
         end_date: present
         summary: Leading technical direction and research strategy for a team working across multiple EU Horizon-funded AI/ML projects.
@@ -60,7 +59,7 @@ cv:
           - Published research in peer-reviewed journals and international AI conferences.
       - company: ATERMON B.V.
         position: AI-driven Learning Experience Designer
-        location: ""
+        location: Rotterdam, The Netherlands
         start_date: 2024
         end_date: 2024
         highlights:
@@ -69,7 +68,7 @@ cv:
           - Applied NLP tools and user analytics to optimize content adaptation and feedback.
       - company: Asserted Knowledge O.E.
         position: Instructional Designer & Developer
-        location: ""
+        location: Athens, Greece
         start_date: 2021
         end_date: 2024
         highlights:
