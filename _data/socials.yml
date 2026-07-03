@@ -3,6 +3,10 @@
 # for more information, please refer to the documentation of jekyll-socials plugin: https://github.com/george-gca/jekyll-socials
 # cv_pdf: /assets/pdf/example_pdf.pdf # path to your CV PDF file
 # email: kroubas@gmail.com # your email address
+custom_social:
+  logo: fa-brands fa-signal-messenger # Any icon class from fonts you've added
+  title: Signal
+  url: https://signal.me/#eu/ng183HC27k4CqPI0BkXjoReVCzV5J_pzesaPVrvqrvRiSPXQ23NK0Kq9ptHMH5Eh
 scholar_userid: lb-HwJIAAAAJ # your Google Scholar ID
 research_gate_profile: Konstantinos-Roumpas
 scopus_id: 59526766700
