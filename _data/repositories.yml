@@ -1,7 +1,11 @@
-github_users:
-  - kroumpas
+# Datasets shown on the /datasets/ page.
+# List the GitHub repos that hold your public experiment datasets.
+# Each renders as a card with its description, stars, and primary language.
 
-repo_description_lines_max: 2
+dataset_repos:
+  - kroumpas/gaze-eyetracking-dataset
+  # - kroumpas/blink-openness-dataset
+  # - kroumpas/another-dataset
 
-github_repos:
-  - kroumpas/blink-detection-dataset-model/releases/tag/blink
+# (Optional) If you ever want a general repositories page too, you can also
+# define github_users / github_repos here and render them elsewhere.
