@@ -1,7 +1,8 @@
 # Datasets shown on the /datasets/ page.
 # List the GitHub repos that hold your public experiment datasets.
 # Each renders as a card with its description, stars, and primary language.
-
+github_users:
+  - kroumpas
 github_repos:
   - kroumpas/blink-detection-dataset-model
   # - kroumpas/blink-openness-dataset
