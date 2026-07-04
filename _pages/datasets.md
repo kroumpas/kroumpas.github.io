@@ -19,6 +19,6 @@ Below are publicly available datasets gathered from our experiments. Each links 
 
 {% else %}
 
-*No datasets listed yet — add repository names to `dataset_repos` in `_data/repositories.yml`.*
+_No datasets listed yet — add repository names to `dataset_repos` in `_data/repositories.yml`._
 
 {% endif %}
