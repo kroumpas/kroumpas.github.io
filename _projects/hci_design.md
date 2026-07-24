@@ -22,7 +22,7 @@ When an *acqua alta* event hits Venice, an operator has to reason about tide for
 
 <div class="row justify-content-center">
     <div class="col-sm-12 mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/hci/scudo_dashboard.png" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/scudo_dashboard.png" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
@@ -37,7 +37,7 @@ A helicopter mission interface has to stay legible when the pilot has almost no 
 
 <div class="row justify-content-center">
     <div class="col-sm-12 mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/hci/sar_flightmap.png" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/sar_flightmap.png" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
@@ -48,11 +48,11 @@ A helicopter mission interface has to stay legible when the pilot has almost no 
 
 ## Live Lecture & Whiteboard Platform
 
-This interface comes out of my research on AI-assisted platforms for educators {% cite roumpas_design_2024 roumpas_bridging_2025 %}. An online lecture asks a learner to split attention across the instructor, the material, the whiteboard, and their peers — so the interaction model, not just the feature set, was the real design work. I gave the whiteboard the centre stage and kept everything supporting it in a calm left column: today's subject, the instructor's video, a collapsible Material menu, and a live chat that surfaces exactly the moments teaching needs to catch ("Can you repeat that?", "Is this going to be on the test?"). Participant tiles and a Whiteboard Mode toggle sit on the right, so the layout flexes between "watch the teacher" and "focus on the work."
+This interface comes out of my research on AI-assisted platforms for educators. An online lecture asks a learner to split attention across the instructor, the material, the whiteboard, and their peers — so the interaction model, not just the feature set, was the real design work. I gave the whiteboard the centre stage and kept everything supporting it in a calm left column: today's subject, the instructor's video, a collapsible Material menu, and a live chat that surfaces exactly the moments teaching needs to catch ("Can you repeat that?", "Is this going to be on the test?"). Participant tiles and a Whiteboard Mode toggle sit on the right, so the layout flexes between "watch the teacher" and "focus on the work."
 
 <div class="row justify-content-center">
     <div class="col-sm-12 mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/hci/rqm_lecture.png" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/rqm_lecture.png" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
@@ -63,11 +63,11 @@ This interface comes out of my research on AI-assisted platforms for educators {
 
 ## Course Crafter — AI Course Authoring
 
-Course Crafter is a tool for building courses from your own material with an AI assistant. The design goal was to make an AI-driven workflow feel unintimidating: a drag-and-drop canvas as the obvious starting point, a prompt bar as the single conversational entry point, and a short, jargon-free action rail (My Files, Save, Start Over, Help, Exit) so nothing about "authoring with AI" feels like a wall of settings. The retro pixel treatment is a deliberate move to make an unfamiliar workflow read as approachable and low-stakes rather than technical.
+Course Crafter is a tool for building courses from your own material with an AI assistant {% cite roumpas_design_2024 roumpas_bridging_2025 %}. The design goal was to make an AI-driven workflow feel unintimidating: a drag-and-drop canvas as the obvious starting point, a prompt bar as the single conversational entry point, and a short, jargon-free action rail (My Files, Save, Start Over, Help, Exit) so nothing about "authoring with AI" feels like a wall of settings. The retro pixel treatment is a deliberate move to make an unfamiliar workflow read as approachable and low-stakes rather than technical.
 
 <div class="row justify-content-center">
     <div class="col-sm-12 mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/hci/course_crafter.png" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/course_crafter.png" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
@@ -82,7 +82,7 @@ Beyond operational tooling, this is a full marketing site for an education studi
 
 <div class="row justify-content-center">
     <div class="col-sm-12 mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/hci/tiny_terrain.jpg" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/tiny_terrain.jpg" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
