@@ -82,7 +82,7 @@ Beyond operational tooling, this is a full marketing site for an education studi
 
 <div class="row justify-content-center">
     <div class="col-sm-12 mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/hci/tiny_terrain.png" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/hci/tiny_terrain.jpg" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
