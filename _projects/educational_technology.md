@@ -2,7 +2,7 @@
 layout: page
 title: Educational Technology
 description: Adaptive learning, game-based learning, and AI-assisted tools for educators.
-img: assets/img/1.jpg
+img: assets/img/Frame 2.png
 importance: 1
 category: educational technology
 related_publications: true
