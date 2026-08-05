@@ -1,93 +1,221 @@
+# ============================================================
+#  kroumpas.github.io — CV data
+#  Updated 5 Aug 2026 against ORCID 0009-0006-4187-438X
+#  Source of truth: MASTER_CV_RECORD.md
+#
+#  Items marked "# CONFIRM:" need checking against the published
+#  paper before they are treated as settled.
+# ============================================================
+
 cv:
   name: Konstantinos Roumpas
-  label: PhD Candidate & AI/HCI Researcher
+  label: PhD Candidate · Human-Computer Interaction & Applied Machine Learning
   location: Athens, Greece
+  # phone deliberately omitted — it is on the PDF CV, but a public
+  # site invites scraping. Add `phone: "+306949286258"` if you want it.
   image: ""
-  summary: PhD Candidate in Computer Engineering and Informatics researching Human-Computer Interaction, Cognitive Modeling, and AI. Builds adaptive systems combining machine learning, eye-tracking, and multimodal data.
+  summary: >-
+    PhD candidate building systems that infer a user's cognitive state — attention,
+    comprehension, stress — from eye-tracking and physiological signals, and adapt to it.
+    I work across the full stack: sensor pipelines, machine learning, validation studies
+    with real users, and the interfaces that expose the result. Five years across EU-funded
+    R&D, from leading a development team of seven to writing Horizon Europe proposals.
   social_networks:
     - network: GitHub
       username: kroumpas
     - network: LinkedIn
       username: kroumpas
+    - network: ORCID
+      username: 0009-0006-4187-438X
+    - network: Google Scholar
+      username: lb-HwJIAAAAJ
+    - network: ResearchGate
+      username: Konstantinos-Roumpas
   address:
     city: Athens
     region: Attica
     postalCode: ""
     countryCode: GR
+
   sections:
+
+    # ------------------------------------------------------------
     Education:
       - institution: University of Patras
         location: Patras, Greece
         url: https://www.upatras.gr/en/
         area: Computer Engineering and Informatics
         studyType: PhD
-        start_date: 2023
+        start_date: 2023-01
         end_date: present
         score: ""
         courses: "Human-Computer Interaction, Machine Learning, Cognitive Modeling, Adaptive Systems"
         highlights:
-          - Researching adaptive, multimodal AI systems combining eye-tracking, behavioral data, and LLMs.
-          - Published in peer-reviewed journals and international AI conferences.
+          - Software Quality and Human-Computer Interaction Laboratory. Supervisor Prof. Michalis Xenos; committee Prof. Nikolaos Tselios and Prof. Ioannis Garofalakis.
+          - Research on physics-informed modelling of oculomotor behaviour, treating deviation from a learned reconstruction of gaze as a measure of cognitive state.
+          - Applications span attention lapse, reading comprehension, blink-based input, operational stress and VR cybersickness.
+          - Eight master's-level courses completed within the doctoral programme. Expected defence 2027.
       - institution: Aristotle University of Thessaloniki
         location: Thessaloniki, Greece
+        url: https://www.auth.gr/en/
         area: Physics
         studyType: BSc
-        start_date: 2016
-        end_date: 2022
+        start_date: 2016-10
+        end_date: 2022-02
         highlights:
-          - "Specialization: Computational Physics, Data Analysis, Non-linear Systems."
+          - "Focus: computational physics, data analysis, non-linear systems."
+          - Foundation for the physics-informed machine learning in my doctoral work.
+
+    # ------------------------------------------------------------
     Experience:
       - company: Frontier Innovations
         position: Researcher / Technical Manager
         location: Athens, Greece
-        start_date: 2025
+        start_date: 2025-11
         end_date: present
-        summary: Leading technical direction and research strategy for a team working across multiple EU Horizon-funded AI/ML projects.
+        summary: Technical direction and research strategy across multiple EU Horizon-funded projects, with primary responsibility for proposal writing and grant management.
         highlights:
-          - Lead technical direction and coordinate a team of researchers and engineers across multiple EU Horizon-funded projects.
-          - Set research strategy and oversee delivery, translating project objectives into working AI/ML systems.
-          - Design and develop research-driven GUIs and dashboards that integrate outputs from each project's modules into a unified interface.
-      - company: HCI & Software Quality Lab, University of Patras
-        position: PhD Researcher
+          - Write and manage research proposals for Horizon Europe programmes, owning the process from concept through submission.
+          - Lead technical direction across concurrent EU-funded projects, coordinating a cross-functional team of researchers and engineers.
+          - Set research strategy and translate funded project objectives into working AI/ML systems and deliverables.
+          - Design dashboards and interfaces that consolidate outputs from separate project modules into a single operational view.
+          - Serve as technical point of contact for consortium partners across multiple countries.
+
+      - company: University of Patras — Software Quality & HCI Laboratory
+        position: Researcher & Teaching Assistant
         location: Patras, Greece
-        start_date: 2024
-        end_date: 2025
+        start_date: 2024-09
+        end_date: 2025-09
+        summary: Research and technical delivery across Erasmus+ and Horizon Europe projects, alongside undergraduate teaching.
         highlights:
-          - Developed machine learning and large language models (LLMs) for adaptive user interfaces using multimodal signals (eye-tracking, behavioral data, interaction logs).
-          - Researched AI-assisted systems for education and cognitive state recognition.
-          - Designed and evaluated prototypes leveraging predictive modeling and deep learning for user behavior analysis.
-          - Published research in peer-reviewed journals and international AI conferences.
+          - Built machine learning models in Python and PyTorch that infer cognitive state from multimodal signals, including eye-tracking, behavioural data and interaction logs.
+          - Developed a physics-informed neural network for gaze prediction that outperformed a conventional baseline, raising vertical-gaze R-squared from 0.85 to 0.91.
+          - Designed and ran controlled user studies with physiological manipulation checks, including a randomised crossover protocol.
+          - Published four peer-reviewed papers and one open dataset; reviewed five manuscripts for two international journals.
+          - Teaching Assistant on the Software Quality course, and supervised an undergraduate research project through to a publishable manuscript.
+
       - company: ATERMON B.V.
-        position: AI-driven Learning Experience Designer
-        location: Rotterdam, The Netherlands
-        start_date: 2024
-        end_date: 2024
+        position: Learning Experience Designer & Team Leader
+        location: Rotterdam, Netherlands (Remote)
+        start_date: 2024-01
+        end_date: 2024-07
         highlights:
-          - Designed and implemented AI-powered learning modules integrating data-driven personalization.
-          - Collaborated on EU-funded R&D projects in digital learning, inclusion, and human-AI collaboration.
-          - Applied NLP tools and user analytics to optimize content adaptation and feedback.
+          - Designed AI-supported learning modules with data-driven personalisation for EU-funded R&D projects.
+          - Led design decisions across digital learning, inclusion, accessibility and human-AI collaboration workstreams.
+          - Coordinated delivery with international consortium partners against fixed reporting milestones.
+
       - company: Asserted Knowledge O.E.
         position: Instructional Designer & Developer
-        location: Athens, Greece
-        start_date: 2021
-        end_date: 2024
+        location: Athens, Greece (Remote)
+        start_date: 2021-10
+        end_date: 2024-01
+        summary: Joined as the sole member of the development team and grew into leading a team of seven.
         highlights:
-          - Built and evaluated interactive systems using AI-driven behavior modeling and engagement metrics.
-          - Conducted data analysis with Python, Pandas, and TensorFlow for learning analytics research.
-          - Authored reports and technical documentation for EU innovation projects involving AI and data science.
+          - Grew from sole developer to leading a team of seven engineers and designers, defining process and standards as the team scaled.
+          - Contributed to a portfolio of more than 50 educational games and tools delivered across EU-funded projects.
+          - Designed and evaluated an AI-assisted course authoring tool, validated with 10 educators using the System Usability Scale and semi-structured interviews.
+          - Organised and led educator workshops and Erasmus+ Learning, Teaching and Training Activities across partner countries.
+          - Ran learning-analytics data analysis in Python and authored technical documentation for project reporting and audit.
+
+    # ------------------------------------------------------------
+    Projects:
+      - name: Gaze Reconstruction as Cognitive-State Measurement
+        start_date: 2024
+        end_date: present
+        summary: >-
+          Physics-informed neural network in PyTorch that reconstructs expected gaze from
+          eye-tracking data. Deviation from the reconstruction serves as a measure of attention
+          lapse rather than as tracking error.
+        highlights:
+          - Multi-head architecture embedding oculomotor dynamics as constraints in the training objective.
+          - Outperformed a conventional neural baseline; vertical-gaze R-squared 0.85 to 0.91.
+          - Published in Expert Systems with Applications (2025).
+
+      - name: CourseCrafter — AI-Assisted Course Authoring
+        start_date: 2024
+        end_date: 2025
+        summary: >-
+          Authoring tool that lets educators build Minecraft Education courses without coding
+          or prior familiarity with the platform's controls.
+        highlights:
+          - Evaluated with 10 educators across geographies, grade levels and subjects.
+          - Mixed-methods evaluation using the System Usability Scale and semi-structured interviews.
+          - Design published at WAIE 2024; evaluation published at AICCONF 2025.
+
+      - name: Blink-Based Hands-Free Input
+        start_date: 2025
+        end_date: present
+        summary: >-
+          Method separating voluntary from involuntary blinks so that blinks can serve as a
+          reliable input channel, validated as robust under induced stress.
+        highlights:
+          - Two-component Gaussian mixture model over blink duration establishes the classification boundary.
+          - Stress manipulation validated physiologically via pupil diameter; the boundary held.
+          - Open dataset and model published on Zenodo.
+
+      - name: Research Dashboards & Operational Interfaces
+        start_date: 2023
+        end_date: present
+        summary: >-
+          Interface design work turning dense, multi-source data into something people can read
+          and act on, across EU research projects and operational contexts.
+        highlights:
+          - SCUDO — dashboard unifying multi-source EU project data into a single readable view.
+          - Search-and-rescue flight map, designed for legibility under time pressure.
+          - Adaptive lecture platform for a relativistic quantum mechanics course.
+          - All designed in Figma.
+
+    # ------------------------------------------------------------
     Publications:
-      - title: "A Framework for Ethical, Cognitive-Aware Human-AI Interaction in Multimodal Adaptive Learning Systems"
+      - title: "Blink Detection Dataset and Model Using Eye Openness Metrics"
+        authors:
+          - Konstantinos Roumpas   # CONFIRM: add co-authors
+        publisher: Zenodo (dataset)
+        releaseDate: 2026-07
+        url: https://doi.org/10.5281/zenodo.21166557
+        summary: "Open dataset and model. doi:10.5281/zenodo.21166557"
+
+      - title: "Modelling Eye Mechanics Using Eye-tracking Glasses and Deep Learning"
         authors:
           - Konstantinos Roumpas
-        publisher: SSRN
-        releaseDate: 2025
-        summary: ""
+          - M. Xenos   # CONFIRM: co-author list taken from a secondary source
+        publisher: 4th Cognitive Models and Artificial Intelligence Conference (AICCONF 2026), IEEE
+        releaseDate: 2026-04
+        url: https://doi.org/10.1109/aicconf69182.2026.11600664
+        summary: "doi:10.1109/aicconf69182.2026.11600664"
+
+      - title: "Distinguishing Voluntary and Involuntary Blinks Through Eye Openness Metrics"
+        authors:
+          - Konstantinos Roumpas
+          - D. Minas
+          - A. Calvo-Cordoba
+          - M. Xenos
+        publisher: Proceedings of the International Conference of the ACM Greek SIGCHI Chapter (CHIGreece 2025), ACM
+        releaseDate: 2025-09
+        url: https://doi.org/10.1145/3749012.3749079
+        summary: "doi:10.1145/3749012.3749079"
+
       - title: "A comparative study of physics-informed and conventional neural networks for predicting on-screen gaze points from eye-tracking data"
         authors:
           - Konstantinos Roumpas
+          - E.-L. Michanetzi
+          - D. Minas
+          - A. Fotopoulos
+          - M. Xenos
         publisher: Expert Systems with Applications
-        releaseDate: 2025
-        summary: "Expert Systems with Applications, 281, 127655."
+        releaseDate: 2025-07
+        url: https://doi.org/10.1016/j.eswa.2025.127655
+        summary: "Expert Systems with Applications, 281, 127655. doi:10.1016/j.eswa.2025.127655"
+
+      - title: "Bridging the Gap Between Educators and Game-Based Learning: A Study of an AI-Assisted Course Creation Tool for Minecraft Education"
+        authors:
+          - Konstantinos Roumpas
+          - M. Xenos   # CONFIRM: one source lists a co-author "M. Balaskas" instead
+        publisher: 3rd Cognitive Models and Artificial Intelligence Conference (AICCONF 2025), IEEE
+        releaseDate: 2025-06
+        url: https://doi.org/10.1109/AICCONF64766.2025.11064146
+        summary: "doi:10.1109/AICCONF64766.2025.11064146"
+
       - title: "Adaptive Real-Time Translation Assistance Through Eye-Tracking"
         authors:
           - D. Minas
@@ -95,37 +223,100 @@ cv:
           - Konstantinos Roumpas
           - M. Xenos
         publisher: AI (MDPI)
-        releaseDate: 2025
-        summary: "AI, 6(1), 5."
-      - title: "Bridging the Gap Between Educators and Game-Based Learning: An AI-Assisted Course Creation Tool"
+        releaseDate: 2025-01
+        url: https://doi.org/10.3390/ai6010005
+        summary: "AI, 6(1), 5. doi:10.3390/ai6010005"
+
+      - title: "Design of an AI-Assisted Platform that will Facilitate Educators in Creating Minecraft Education Courses"
         authors:
           - Konstantinos Roumpas
           - M. Xenos
-        publisher: 3rd Cognitive Models and Artificial Intelligence Conference (AICCONF)
-        releaseDate: 2025
-        summary: "pp. 1-7."
-      - title: "Design of an AI-Assisted Platform to Facilitate Educators in Creating Adaptive Courses"
+        publisher: 6th International Workshop on Artificial Intelligence and Education (WAIE 2024), IEEE
+        releaseDate: 2024-09
+        url: https://doi.org/10.1109/WAIE63876.2024.00043
+        summary: "WAIE 2024, pp. 197-201. doi:10.1109/WAIE63876.2024.00043"
+
+      # Preprint — labelled as such. Do not present as a journal article.
+      - title: "A Framework for Ethical, Cognitive-Aware Human-AI Interaction in Multimodal Adaptive Learning Systems"
         authors:
           - Konstantinos Roumpas
+          - A. Fotopoulos
           - M. Xenos
-        publisher: WAIE 2024
-        releaseDate: 2024
-        summary: "pp. 197-201."
+        publisher: SSRN (preprint)
+        releaseDate: 2025
+        url: https://doi.org/10.2139/ssrn.5405600
+        summary: "Preprint. doi:10.2139/ssrn.5405600"
+
+    # ------------------------------------------------------------
+    # Self-assigned proficiency labels removed deliberately: they are
+    # unverifiable and add nothing a reader can act on.
     Skills:
       - name: Programming
-        level: Advanced
         icon: fa-solid fa-code
-        keywords: "Python (NumPy, Pandas, TensorFlow, PyTorch), JavaScript, Unity, React"
-      - name: AI & Machine Learning
-        level: Advanced
+        keywords: "Python (PyTorch, scikit-learn, NumPy, pandas, SciPy), R, SQL, MATLAB, Wolfram Mathematica, SPSS, LaTeX"
+      - name: Machine Learning
         icon: fa-solid fa-brain
-        keywords: "Deep Learning, NLP, Predictive Modeling, Multimodal Data Processing, Eye-tracking Analytics, LLMs"
-      - name: Tools
-        level: Proficient
+        keywords: "Deep learning, physics-informed neural networks, predictive modelling, explainable AI (SHAP), multimodal data processing, feature engineering"
+      - name: Research Methods
+        icon: fa-solid fa-flask
+        keywords: "Experimental design, statistical analysis, cross-validation, permutation testing, randomised crossover designs, usability testing, user interviews, System Usability Scale"
+      - name: Sensing & Signals
+        icon: fa-solid fa-eye
+        keywords: "Tobii Pro Lab, VR eye tracking, EEG (MNE), electrodermal activity, pupillometry, blink detection, fixation and saccade analysis"
+      - name: Design & Tools
         icon: fa-solid fa-toolbox
-        keywords: "Jupyter, Git, Docker, Figma, MATLAB"
+        keywords: "Figma, dashboard and interaction design, data visualization, Git, Jupyter, Power BI, Microsoft Azure, Moodle"
+
+    # ------------------------------------------------------------
+    Service:
+      - name: Peer Reviewer — Cognitive Systems Research (Elsevier)
+        icon: fa-solid fa-file-pen
+        keywords: "Four reviews completed"
+      - name: Peer Reviewer — International Review of Research in Open and Distributed Learning
+        icon: fa-solid fa-file-pen
+        keywords: "One review completed"
+      - name: Registered Trainer — University of Patras Lifelong Learning Centre (K.E.DI.VI.M.)
+        icon: fa-solid fa-chalkboard-user
+        keywords: "Register of Trainers, since 2025"
+
+    # ------------------------------------------------------------
+    Certificates:
+      - name: Certificates of Reviewing
+        date: 2026
+        issuer: Elsevier
+        icon: fa-solid fa-award
+      - name: Certificate of Competency in SQL
+        date: 2025
+        issuer: LearnSQL.com
+        icon: fa-solid fa-database
+      - name: Prepare Data for Analysis with Power BI
+        date: 2025
+        issuer: Microsoft
+        icon: fa-solid fa-chart-column
+      - name: "Azure Fundamentals & Azure App Service"
+        date: 2025
+        issuer: Microsoft
+        icon: fa-solid fa-cloud
+      - name: Moodle Developer Basics
+        date: 2024
+        issuer: Moodle
+        icon: fa-solid fa-graduation-cap
+      - name: Foundations of User Experience and Design Thinking
+        date: 2023
+        issuer: Microsoft
+        icon: fa-solid fa-pen-ruler
+      - name: "Minecraft Certified Mentor & Trainer Academy"
+        date: 2022
+        issuer: Microsoft
+        icon: fa-solid fa-cubes
+      - name: Certificate of Proficiency in English (ECPE)
+        date: 2012
+        issuer: University of Michigan
+        icon: fa-solid fa-language
+
+    # ------------------------------------------------------------
     Languages:
       - name: Greek
         summary: "Native speaker"
       - name: English
-        summary: "Fluent"
+        summary: "Full professional proficiency — Certificate of Proficiency (ECPE), University of Michigan"
