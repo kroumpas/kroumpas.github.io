@@ -268,7 +268,7 @@ cv:
         keywords: "Figma, dashboard and interaction design, data visualization, Git, Jupyter, Power BI, Microsoft Azure, Moodle"
 
     # ------------------------------------------------------------
-    Service:
+    Reviews:
       - name: Peer Reviewer — International Journal of Human-Computer Interaction
         icon: fa-solid fa-file-pen
         keywords: "One review completed"
@@ -281,7 +281,7 @@ cv:
         icon: fa-solid fa-file-pen
         keywords: "One review completed"
         date: 2026
-      - name: Registered Trainer — University of Patras Lifelong Learning Centre (K.E.DI.VI.M.)
+      - name: Registered Trainer — University of Patras Lifelong Learning Centre (KE.DI.VI.M.)
         icon: fa-solid fa-chalkboard-user
         keywords: "Register of Trainers"
         date: 2025
