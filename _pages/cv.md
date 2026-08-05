@@ -4,9 +4,9 @@ permalink: /cv/
 title: CV
 nav: true
 nav_order: 5
-cv_pdf: /assets/pdf/cv_2026-07-02_redacted.pdf # you can also use external links here
+cv_pdf: /assets/pdf/KRoumpasCV_redacted.pdf # you can also use external links here
 cv_format: rendercv # options: rendercv, jsonresume
-description: PhD Candidate in Computer Engineering and Informatics researching Human-Computer Interaction, Cognitive Modeling, and AI. I build adaptive systems that combine machine learning, eye-tracking, and multimodal data, and I currently lead technical delivery on an EU Horizon research team. Comfortable moving between hands-on Python/ML work and coordinating a team toward shared research goals.
+description: Researcher and technical manager building systems that infer a user's cognitive state — attention, comprehension, stress — from eye-tracking and physiological signals, and adapt to it. I work across the full stack: sensor pipelines, machine learning, validation studies, and the interfaces that expose the result. Five years across EU-funded R&D, from leading a team of seven to writing Horizon Europe proposals.
 toc:
   sidebar: left
 ---
