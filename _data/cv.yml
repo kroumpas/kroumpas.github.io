@@ -269,15 +269,22 @@ cv:
 
     # ------------------------------------------------------------
     Service:
+      - name: Peer Reviewer — International Journal of Human-Computer Interaction
+        icon: fa-solid fa-file-pen
+        keywords: "One review completed"
+        date: 2026
       - name: Peer Reviewer — Cognitive Systems Research (Elsevier)
         icon: fa-solid fa-file-pen
-        keywords: "Four reviews completed"
+        keywords: "Two reviews completed"
+        date: 2026
       - name: Peer Reviewer — International Review of Research in Open and Distributed Learning
         icon: fa-solid fa-file-pen
         keywords: "One review completed"
+        date: 2026
       - name: Registered Trainer — University of Patras Lifelong Learning Centre (K.E.DI.VI.M.)
         icon: fa-solid fa-chalkboard-user
-        keywords: "Register of Trainers, since 2025"
+        keywords: "Register of Trainers"
+        date: 2025
 
     # ------------------------------------------------------------
     Certificates:
