@@ -9,7 +9,7 @@
 
 cv:
   name: Konstantinos Roumpas
-  label: PhD Candidate · Human-Computer Interaction & Applied Machine Learning
+  label: PhD Candidate · HCI & Applied ML
   location: Athens, Greece
   # phone deliberately omitted — it is on the PDF CV, but a public
   # site invites scraping. Add `phone: "+306949286258"` if you want it.
@@ -268,7 +268,7 @@ cv:
         keywords: "Figma, dashboard and interaction design, data visualization, Git, Jupyter, Power BI, Microsoft Azure, Moodle"
 
     # ------------------------------------------------------------
-    Certificates:
+    Services:
       - name: Certificates of Reviewing
         date: 2026
         issuer: Elsevier
