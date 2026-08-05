@@ -46,10 +46,7 @@
 .highlight .ge {
   color: #d0d0d0;
   font-style: italic;
-} /* Generic.Emph */
-.highlight .gr {
-  color: #d22323;
-} /* Generic.Error */
+} /* Generic.Emph */ /* Generic.Error */
 .highlight .gh {
   color: #ffffff;
   font-weight: bold;
