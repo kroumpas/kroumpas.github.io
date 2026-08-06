@@ -268,42 +268,25 @@ cv:
         keywords: "Figma, dashboard and interaction design, data visualization, Git, Jupyter, Power BI, Microsoft Azure, Moodle"
 
     # ------------------------------------------------------------
-    Services:
-      - name: Certificates of Reviewing
+    Reviews:
+      - name: Peer Reviewer — International Journal of Human-Computer Interaction
+        icon: fa-solid fa-file-pen
+        keywords: "One review completed"
         date: 2026
-        issuer: Elsevier
-        icon: fa-solid fa-award
-      - name: Certificate of Competency in SQL
-        date: 2025
-        issuer: LearnSQL.com
-        icon: fa-solid fa-database
-      - name: Prepare Data for Analysis with Power BI
-        date: 2025
-        issuer: Microsoft
-        icon: fa-solid fa-chart-column
-      - name: "Azure Fundamentals & Azure App Service"
-        date: 2025
-        issuer: Microsoft
-        icon: fa-solid fa-cloud
-      - name: Moodle Developer Basics
-        date: 2024
-        issuer: Moodle
-        icon: fa-solid fa-graduation-cap
-      - name: Foundations of User Experience and Design Thinking
-        date: 2023
-        issuer: Microsoft
-        icon: fa-solid fa-pen-ruler
-      - name: "Minecraft Certified Mentor & Trainer Academy"
-        date: 2022
-        issuer: Microsoft
-        icon: fa-solid fa-cubes
-      - name: Certificate of Proficiency in English (ECPE)
-        date: 2012
-        issuer: University of Michigan
-        icon: fa-solid fa-language
+      - name: Peer Reviewer — Cognitive Systems Research (Elsevier)
+        icon: fa-solid fa-file-pen
+        keywords: "Two reviews completed"
+        date: 2026
+      - name: Peer Reviewer — International Review of Research in Open and Distributed Learning
+        icon: fa-solid fa-file-pen
+        keywords: "One review completed"
 
     # ------------------------------------------------------------
     Certificates:
+      - name: Certificate of Reviewing
+        date: 2026
+        issuer: Taylor & Francis
+        icon: fa-solid fa-award
       - name: Certificates of Reviewing
         date: 2026
         issuer: Elsevier
