@@ -1,9 +1,20 @@
-"AJP":
-  url: https://aapt.scitation.org/journal/ajp
-  color: "#00369f"
+# Venue badges on the publications page.
+# Each key must match the `abbr` field of an entry in _bibliography/papers.bib.
 
-"PhysRev":
-  url: https://journals.aps.org/
+"ESWA":
+  url: https://www.sciencedirect.com/journal/expert-systems-with-applications
+  color: "#c4451c"
 
-"Vision":
-  color: "#009f36"
+"AI":
+  url: https://www.mdpi.com/journal/ai
+  color: "#0f7a6c"
+
+"CHIGreece":
+  url: https://dl.acm.org/doi/proceedings/10.1145/3749012
+  color: "#1a5fb4"
+
+"AICCONF":
+  color: "#6a3d9a"
+
+"WAIE":
+  color: "#8f5902"

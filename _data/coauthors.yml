@@ -1,34 +1,24 @@
-"adams":
-  - firstname: ["Edwin", "E.", "E. P.", "Edwin Plimpton"]
-    url: https://en.wikipedia.org/wiki/Edwin_Plimpton_Adams
+# Co-author links on the publications page.
+# Key = lowercase surname exactly as it appears in _bibliography/papers.bib.
+# `firstname` lists every spelling used across entries so al-folio matches them all.
+# `url` is optional — omit it and the name is still highlighted, just not linked.
+# TODO: add profile URLs (ORCID / lab page) for the co-authors left unlinked below.
 
-"podolsky":
-  - firstname: ["Boris", "B.", "B. Y.", "Boris Yakovlevich"]
-    url: https://en.wikipedia.org/wiki/Boris_Podolsky
+"xenos":
+  - firstname: ["Michalis", "M."]
+    url: https://orcid.org/0000-0002-8440-4840
 
-"rosen":
-  - firstname: ["Nathan", "N."]
-    url: https://en.wikipedia.org/wiki/Nathan_Rosen
+"minas":
+  - firstname: ["Dimosthenis", "D."]
 
-"bach":
-  - firstname: ["Johann Sebastian", "J. S."]
-    url: https://en.wikipedia.org/wiki/Johann_Sebastian_Bach
+"michanetzi":
+  - firstname: ["Eleftheria-Lito", "E.-L.", "E. L."]
 
-  - firstname: ["Carl Philipp Emanuel", "C. P. E."]
-    url: https://en.wikipedia.org/wiki/Carl_Philipp_Emanuel_Bach
+"fotopoulos":
+  - firstname: ["Angelos", "A."]
 
-"przibram":
-  - firstname: ["Karl"]
-    url: https://link.springer.com/article/10.1007/s00016-019-00242-z
+"calvo-cordoba":
+  - firstname: ["Alberto", "A."]
 
-"schrodinger":
-  - firstname: ["Erwin"]
-    url: https://en.wikipedia.org/wiki/Erwin_Schr%C3%B6dinger
-
-"lorentz":
-  - firstname: ["Hendrik Antoon"]
-    url: https://en.wikipedia.org/wiki/Hendrik_Lorentz
-
-"planck":
-  - firstname: ["Max"]
-    url: https://en.wikipedia.org/wiki/Max_Planck
+"theodosiou":
+  - firstname: ["Eleanna", "E."]

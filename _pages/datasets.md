@@ -15,9 +15,11 @@ Publicly available datasets gathered from our experiments. Each links to its rep
 
 Eye-tracking recordings from 44 participants, annotated for voluntary and involuntary blinks using eye-openness metrics, together with a trained neural-network classifier (92% test accuracy). Openly available for research on automated blink detection and gaze-based interaction.
 
-<a href="https://github.com/kroumpas/blink-detection-dataset-model" target="_blank" rel="noopener"><strong>View on GitHub →</strong></a>
+<a href="https://doi.org/10.5281/zenodo.21166557" target="_blank" rel="noopener"><strong>View on Zenodo →</strong></a> &nbsp;·&nbsp; <a href="https://github.com/kroumpas/blink-detection-dataset-model" target="_blank" rel="noopener"><strong>View on GitHub →</strong></a>
 
-Associated paper: Roumpas, K., Minas, D., Calvo-Cordoba, A., & Xenos, M. (2025). *Distinguishing Voluntary and Involuntary Blinks Through Eye Openness Metrics.* CHIGreece '25. [doi:10.1145/3749012.3749079](https://doi.org/10.1145/3749012.3749079)
+**Cite the dataset:** Roumpas, K. (2026). *Blink Detection Dataset and Model Using Eye Openness Metrics* [Data set]. Zenodo. [doi:10.5281/zenodo.21166557](https://doi.org/10.5281/zenodo.21166557)
+
+**Cite the paper:** Roumpas, K., Minas, D., Calvo-Cordoba, A., & Xenos, M. (2025). *Distinguishing Voluntary and Involuntary Blinks Through Eye Openness Metrics.* CHIGreece '25. [doi:10.1145/3749012.3749079](https://doi.org/10.1145/3749012.3749079)
 
 <!--
   To add another dataset, copy the block below:
