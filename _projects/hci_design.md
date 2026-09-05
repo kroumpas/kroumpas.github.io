@@ -18,7 +18,7 @@ The interface work also runs through my research on AI-assisted platforms for ed
 
 ## SCUDO — Lagoon Operations Dashboard
 
-When an *acqua alta* event hits Venice, an operator has to reason about tide forecasts, closed *pontili*, suspended waterbus routes, and stalled waste collection all at once. The design problem was triage: how do you let one person read a fast-moving, multi-source situation in seconds and know what to do next? I led with a single "Situation Overview" that pins the active disruption and its severity to the top, then lays out operational summary, network status, live alerts, a 12-hour tide/wind/demand forecast, and impact KPIs in a scannable grid — with prioritised recommended actions so the interface doesn't just report, it prompts a decision.
+When an _acqua alta_ event hits Venice, an operator has to reason about tide forecasts, closed _pontili_, suspended waterbus routes, and stalled waste collection all at once. The design problem was triage: how do you let one person read a fast-moving, multi-source situation in seconds and know what to do next? I led with a single "Situation Overview" that pins the active disruption and its severity to the top, then lays out operational summary, network status, live alerts, a 12-hour tide/wind/demand forecast, and impact KPIs in a scannable grid — with prioritised recommended actions so the interface doesn't just report, it prompts a decision.
 
 <div class="row justify-content-center">
     <div class="col-sm-12 mt-3 mt-md-0">

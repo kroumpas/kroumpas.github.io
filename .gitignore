@@ -15,3 +15,6 @@ node_modules/
 output/playwright/
 test-results/
 vendor
+
+# Files delivered into this folder by the Claude desktop app
+Claude outputs/

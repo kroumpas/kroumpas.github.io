@@ -38,7 +38,6 @@ cv:
     countryCode: GR
 
   sections:
-
     # ------------------------------------------------------------
     Education:
       - institution: University of Patras
@@ -169,7 +168,7 @@ cv:
     Publications:
       - title: "Blink Detection Dataset and Model Using Eye Openness Metrics"
         authors:
-          - Konstantinos Roumpas   # CONFIRM: add co-authors
+          - Konstantinos Roumpas # CONFIRM: add co-authors
         publisher: Zenodo (dataset)
         releaseDate: 2026-07
         url: https://doi.org/10.5281/zenodo.21166557
@@ -178,7 +177,7 @@ cv:
       - title: "Modelling Eye Mechanics Using Eye-tracking Glasses and Deep Learning"
         authors:
           - Konstantinos Roumpas
-          - M. Xenos   # CONFIRM: co-author list taken from a secondary source
+          - M. Xenos # CONFIRM: co-author list taken from a secondary source
         publisher: 4th Cognitive Models and Artificial Intelligence Conference (AICCONF 2026), IEEE
         releaseDate: 2026-04
         url: https://doi.org/10.1109/aicconf69182.2026.11600664
@@ -210,7 +209,7 @@ cv:
       - title: "Bridging the Gap Between Educators and Game-Based Learning: A Study of an AI-Assisted Course Creation Tool for Minecraft Education"
         authors:
           - Konstantinos Roumpas
-          - M. Xenos   # CONFIRM: one source lists a co-author "M. Balaskas" instead
+          - M. Xenos # CONFIRM: one source lists a co-author "M. Balaskas" instead
         publisher: 3rd Cognitive Models and Artificial Intelligence Conference (AICCONF 2025), IEEE
         releaseDate: 2025-06
         url: https://doi.org/10.1109/AICCONF64766.2025.11064146

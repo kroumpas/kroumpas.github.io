@@ -10,7 +10,7 @@ related_publications: true
 
 This is where my research meets the classroom. I study and build adaptive learning systems that draw on multimodal data — eye-tracking, EEG, and behavioural signals — to understand what learners actually need, and I design the tools that put those ideas in educators' hands.
 
-Two problems run through the work. The first is a *supply* problem: game-based learning has solid pedagogical evidence behind it, but teachers can't produce it, because the tooling assumes technical skills they were never trained for. The second is a *responsiveness* problem: even good material is delivered identically to every learner, regardless of whether they are coping or struggling. Much of this sits within EU-funded (Erasmus+ and Horizon) projects.
+Two problems run through the work. The first is a _supply_ problem: game-based learning has solid pedagogical evidence behind it, but teachers can't produce it, because the tooling assumes technical skills they were never trained for. The second is a _responsiveness_ problem: even good material is delivered identically to every learner, regardless of whether they are coping or struggling. Much of this sits within EU-funded (Erasmus+ and Horizon) projects.
 
 **What's here:** game-based learning design, AI-assisted course creation, multimodal learning analytics, adaptive interfaces, educator training.
 
@@ -36,6 +36,7 @@ The platform is organised around four modules reached from a central hub: a Dial
     Caption here.
 </div>
 -->
+
 {% endraw %}
 
 ---
@@ -48,7 +49,7 @@ The method was deliberately mixed. Participants were randomly assigned one of tw
 
 The prototype scored **SUS 71.75**. That number needs its caveat stated plainly: the interviews revealed that most low scores tracked participants' unfamiliarity with Figma's interaction constraints rather than with the design, which is a real limitation of prototype-based usability testing and not something to explain away.
 
-The finding that actually changed the project was about AI. Most participants **did not notice the AI feature at all** — it had been kept deliberately subtle, out of a concern that a prominent AI presence would make educators feel they'd lost control of their own content. That concern turned out to be backwards. Once the feature was explained, every participant supported it, on one condition: the educator has the final word on anything generated. They *expected* AI in a modern authoring tool. The objection was never its presence, only its authority. Several framed the tool's potential role in their workflow as analogous to PowerPoint — something that makes a category of work routine rather than a project.
+The finding that actually changed the project was about AI. Most participants **did not notice the AI feature at all** — it had been kept deliberately subtle, out of a concern that a prominent AI presence would make educators feel they'd lost control of their own content. That concern turned out to be backwards. Once the feature was explained, every participant supported it, on one condition: the educator has the final word on anything generated. They _expected_ AI in a modern authoring tool. The objection was never its presence, only its authority. Several framed the tool's potential role in their workflow as analogous to PowerPoint — something that makes a category of work routine rather than a project.
 
 Three further findings fed directly into the redesign: the help system was present but invisible, drag-and-drop was well received but needed a click-to-place alternative for less confident users, and the export step needed step-by-step guidance rather than a generic instruction set.
 
@@ -63,6 +64,7 @@ Three further findings fed directly into the redesign: the help system was prese
     Caption here.
 </div>
 -->
+
 {% endraw %}
 
 ---
@@ -71,7 +73,7 @@ Three further findings fed directly into the redesign: the help system was prese
 
 The other half of this work runs in the opposite direction: instead of helping the teacher produce material, use physiological signals to let the material respond to the learner.
 
-The clearest example is the Eye-tracking Translation Software (ETS), a reading assistant that uses **fixation duration** as a live proxy for cognitive load: when a reader stalls on an unfamiliar word in a foreign-language technical text, it supplies a word-level translation *at that moment* — no lookup, no context switch, no break in the reading flow. {% cite minas_adaptive_2025 %} The design goal is specifically about working memory. A reader of a scientific paper in a second language is already under load, and every manual dictionary trip spends attention that should be going to comprehension. The selectivity is the point: translate everything and you remove the language exposure that makes reading in a second language worth doing.
+The clearest example is the Eye-tracking Translation Software (ETS), a reading assistant that uses **fixation duration** as a live proxy for cognitive load: when a reader stalls on an unfamiliar word in a foreign-language technical text, it supplies a word-level translation _at that moment_ — no lookup, no context switch, no break in the reading flow. {% cite minas_adaptive_2025 %} The design goal is specifically about working memory. A reader of a scientific paper in a second language is already under load, and every manual dictionary trip spends attention that should be going to comprehension. The selectivity is the point: translate everything and you remove the language exposure that makes reading in a second language worth doing.
 
 We evaluated it with **53 participants**, measuring reading speed, fixation duration, and user experience. Gaze-based adaptation improved both reading efficiency and self-reported experience, and reduced cognitive load. The requests that came back were about control rather than concept — pop-up placement, and sentence-level rather than word-level translation for some readers — which points the next version toward adapting to individual proficiency instead of applying one fixation threshold to everyone.
 
@@ -88,6 +90,7 @@ This connects to the broader strand of my work on multimodal learning analytics 
     Caption here.
 </div>
 -->
+
 {% endraw %}
 
 ---
