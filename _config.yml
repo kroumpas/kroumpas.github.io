@@ -216,6 +216,7 @@ exclude:
   - Gemfile.lock
   - INSTALL.md
   - LICENSE
+  - LICENSE-CONTENT
   - package.json
   - package-lock.json
   - purgecss.config.js

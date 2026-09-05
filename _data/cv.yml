@@ -267,18 +267,16 @@ cv:
         keywords: "Figma, dashboard and interaction design, data visualization, Git, Jupyter, Power BI, Microsoft Azure, Moodle"
 
     # ------------------------------------------------------------
+    # "Reviews" is a custom section name, so al-folio renders it with its
+    # generic template. That template only understands `bullet`, or the
+    # `label`/`details` pair below - `name`/`keywords`/`icon` are ignored.
     Reviews:
-      - name: Peer Reviewer — International Journal of Human-Computer Interaction
-        icon: fa-solid fa-file-pen
-        keywords: "One review completed"
-        date: 2026
-      - name: Peer Reviewer — Cognitive Systems Research (Elsevier)
-        icon: fa-solid fa-file-pen
-        keywords: "Two reviews completed"
-        date: 2026
-      - name: Peer Reviewer — International Review of Research in Open and Distributed Learning
-        icon: fa-solid fa-file-pen
-        keywords: "One review completed"
+      - label: International Journal of Human-Computer Interaction
+        details: Peer reviewer — one review completed (2026)
+      - label: Cognitive Systems Research (Elsevier)
+        details: Peer reviewer — two reviews completed (2026)
+      - label: International Review of Research in Open and Distributed Learning
+        details: Peer reviewer — one review completed
 
     # ------------------------------------------------------------
     Certificates:
