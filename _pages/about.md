@@ -6,10 +6,10 @@ subtitle: Researcher &amp; Technical Manager at <a href='https://www.frontier-in
 
 profile:
   align: right
-  image: prof_pic.jpg
+  image: berlin-2026.jpg
   image_circular: false # crops the image into a circle
   more_info: >
-    <p>Athens, Greece</p>
+    <p>From a conference presentation in Berlin, 09/2026</p>
 
 selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
