@@ -2,8 +2,8 @@
 layout: page
 title: Educational Technology
 description: Adaptive learning, game-based learning, and AI-assisted tools for educators.
-img: assets/img/Frame 2.png
-importance: 1
+img: assets/img/research/educational-technology.png
+importance: 2
 category: educational technology
 related_publications: true
 ---
@@ -25,6 +25,7 @@ I designed CourseCrafter to remove that translation step entirely. Four principl
 The platform is organised around four modules reached from a central hub: a Dialogue Builder for NPCs and branching conversations (with optional AI drafting of question sequences), an Infrastructure Editor for laying out the world on a 2D grid with a live 3D preview, an Extra Resources module, and a Code Builder that registers MakeCode exercises by reference rather than reimplementing MakeCode. All four feed a single export engine that packages everything into one ready-to-load file.
 
 {% raw %}
+
 <!-- FIGURE SLOT: CourseCrafter interface — the hub, or the Infrastructure Editor's 2D grid with 3D preview.
      (assets/img/course_crafter.png already exists and is used on the HCI page — consider a different view here.)
 <div class="row justify-content-center">
@@ -54,6 +55,7 @@ The finding that actually changed the project was about AI. Most participants **
 Three further findings fed directly into the redesign: the help system was present but invisible, drag-and-drop was well received but needed a click-to-place alternative for less confident users, and the export step needed step-by-step guidance rather than a generic instruction set.
 
 {% raw %}
+
 <!-- FIGURE SLOT: study results — SUS score distribution across the ten participants, or a thematic summary of the interview findings.
 <div class="row justify-content-center">
     <div class="col-sm-12 mt-3 mt-md-0">
@@ -80,6 +82,7 @@ We evaluated it with **53 participants**, measuring reading speed, fixation dura
 This connects to the broader strand of my work on multimodal learning analytics — eye-tracking metrics (fixation duration and count for visual attention, pupil dilation for load, saccade dynamics for search behaviour, blink rate for fatigue and disengagement), alongside EEG and cardiac measures. The methodological point that keeps recurring is that no single measure is sufficient: each one is sensitive to a different component of load, and each has its own confounds — pupil size in particular responds to luminance and arousal as readily as to effort. Combining measures is not a nicety, it's a requirement.
 
 {% raw %}
+
 <!-- FIGURE SLOT: the eye-tracking translation assistant in use, or a diagram of the multimodal signal pipeline (eye-tracking / EEG / ECG → features → adaptation).
 <div class="row justify-content-center">
     <div class="col-sm-12 mt-3 mt-md-0">

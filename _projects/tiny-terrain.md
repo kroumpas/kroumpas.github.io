@@ -1,41 +1,18 @@
 ---
 layout: page
 title: Tiny Terrain
-description: brand and website for a studio that teaches occupational safety through Minecraft
+description: brand and marketing site for a studio teaching safety through Minecraft
 img: assets/img/projects/tiny-terrain.jpg
-importance: 3
+importance: 4
 ---
 
-{% comment %}
-TODO before publishing: confirm the text below and add the screenshots.
-Optional: link the live site under the last section if it is public.
-{% endcomment %}
+This is a full marketing site for an education studio that teaches occupational and campus safety through Minecraft-based gamification. Here the design problem was voice: land a distinct pixel-art brand while keeping a content-heavy page — hero, three service areas, portfolio imagery, and contact — clearly structured and readable. The angled section breaks and consistent card framing carry the visitor down the page without the styling ever getting in the way of the copy.
 
-{% include figure.liquid loading="eager" path="assets/img/projects/tiny-terrain.jpg" class="img-fluid rounded z-depth-1" alt="Tiny Terrain website pages" %}
-
-## what it is
-
-Tiny Terrain teaches occupational health and safety through gamified, personalised Minecraft courses.
-
-## what I did
-
-<!-- TODO: confirm. -->
-
-I designed the identity and the website: the logo, the pixel type and components, and the pages (home, services, portfolio, careers, and a contact form with
-its confirmation screen).
-
-{% comment %}
-TODO: add two or three legible screenshots at these paths, then delete this comment's opening and closing tags.
-
-## screens
-
-<div class="row">
-  <div class="col-sm mt-3 mt-md-0">
-    {% include figure.liquid loading="lazy" path="assets/img/projects/tiny-terrain/home.png" class="img-fluid rounded z-depth-1" alt="Tiny Terrain home page" %}
-  </div>
-  <div class="col-sm mt-3 mt-md-0">
-    {% include figure.liquid loading="lazy" path="assets/img/projects/tiny-terrain/contact.png" class="img-fluid rounded z-depth-1" alt="Tiny Terrain contact form" %}
-  </div>
+<div class="row justify-content-center">
+    <div class="col-sm-12 col-md-9 mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/tiny_terrain.jpg" class="img-fluid rounded z-depth-1" %}
+    </div>
 </div>
-<div class="caption">TODO: one line on what the screens show.</div>
-{% endcomment %}
+<div class="caption">
+    Tiny Terrain: a pixel-art brand and marketing site for gamified safety education, balancing a strong visual identity against a readable, content-heavy layout.
+</div>

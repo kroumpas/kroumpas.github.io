@@ -1,0 +1,21 @@
+---
+# Keeps the old /projects/hci_design/ URL working after the page moved to the research collection.
+layout: null
+permalink: /projects/hci_design/
+moved_to: /research/hci_design/
+sitemap: false
+---
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>Moved</title>
+    <meta name="robots" content="noindex" />
+    <link rel="canonical" href="{{ page.moved_to | absolute_url }}" />
+    <meta http-equiv="refresh" content="0; url={{ page.moved_to | relative_url }}" />
+  </head>
+  <body>
+    <p>This page moved to <a href="{{ page.moved_to | relative_url }}">{{ page.moved_to }}</a>.</p>
+  </body>
+</html>

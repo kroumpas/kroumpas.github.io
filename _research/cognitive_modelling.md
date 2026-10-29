@@ -2,7 +2,7 @@
 layout: page
 title: Cognitive Modelling
 description: PINNs, gaze prediction, and eye movements as signals of mental demand.
-img: assets/img/Frame 1.png
+img: assets/img/research/cognitive-modelling.png
 importance: 1
 category: cognitive modelling
 related_publications: true
@@ -27,6 +27,7 @@ The PINN won, and won asymmetrically. It reached a mean absolute error of **0.61
 A SHAP analysis explained why. Directional gaze features dominate, left/right vertical directions are strongly redundant with each other, and pupil diameter contributes almost nothing to gaze estimation — useful negative evidence for anyone building a feature set. Getting the physics loss to train stably needed adaptive loss scaling and gradient clipping; an unweighted physics term simply overwhelms the data term.
 
 {% raw %}
+
 <!-- FIGURE SLOT: PINN vs NN — predicted-vs-actual gaze trajectory, or the MAE/R² comparison bar chart from the ESWA paper.
 <div class="row justify-content-center">
     <div class="col-sm-12 mt-3 mt-md-0">
@@ -53,6 +54,7 @@ The answer was no, and cleanly so. The **pure PINN outperformed every alternativ
 For HCI this is a practical finding. The cheapest model in the comparison is also the best one, provided you spend the effort on the equations instead of the architecture.
 
 {% raw %}
+
 <!-- FIGURE SLOT: model comparison — MAE across the six architectures with confidence intervals, or the trajectory plot (actual vs predicted).
 <div class="row justify-content-center">
     <div class="col-sm-12 mt-3 mt-md-0">
@@ -74,9 +76,10 @@ Gaze is continuous; blinks are events. Separating a _deliberate_ blink from a re
 
 Working from eye-openness time series rather than pupil-loss detection (a more direct measure of eyelid movement), I collected recordings from **44 participants** across blink, non-blink, and full-recording conditions, and trained a feedforward classifier on blink duration plus per-eye eye-openness means and standard deviations. It reaches **92% test accuracy**.
 
-The distributions themselves were the more interesting result. Voluntary blinks form a single broad peak of longer closures — the signature of controlled, intentional movement. Involuntary blinks are _bimodal_, showing two distinct peaks that survived a refined cluster-based reclassification. Whether that reflects genuine physiological subtypes, an artefact of the experimental conditions, or something else is still open, and it is the kind of loose end I would rather flag than paper over. The dataset and trained model are [openly published](/datasets/) so others can check it.
+The distributions themselves were the more interesting result. Voluntary blinks form a single broad peak of longer closures — the signature of controlled, intentional movement. Involuntary blinks are _bimodal_, showing two distinct peaks that survived a refined cluster-based reclassification. Whether that reflects genuine physiological subtypes, an artefact of the experimental conditions, or something else is still open, and it is the kind of loose end I would rather flag than paper over. The dataset and trained model are [openly published](/publications/#data) so others can check it.
 
 {% raw %}
+
 <!-- FIGURE SLOT: blink duration density plot — voluntary (single broad peak) vs involuntary (bimodal).
 <div class="row justify-content-center">
     <div class="col-sm-12 mt-3 mt-md-0">
