@@ -1,0 +1,504 @@
+/* Interactive poster: ACM GreekCHI-CYCHI Symposium 2026.
+   Colours come from the site's theme tokens, so light/dark mode follow the site. */
+
+.ig {
+  --ig-rest: #a7b3a4;
+  --ig-soft: rgba(58, 90, 64, 0.08);
+  --ig-radius: 12px;
+  color: var(--global-text-color);
+}
+html[data-theme="dark"] .ig {
+  --ig-rest: #5f735f;
+  --ig-soft: rgba(156, 197, 154, 0.1);
+}
+
+.ig section {
+  margin: 0 0 3.5rem;
+}
+.ig h2 {
+  margin: 0 0 0.35rem;
+}
+.ig .ig-kicker {
+  font-size: 0.8rem;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--global-text-color-light);
+  margin: 0 0 0.5rem;
+}
+.ig .ig-sub {
+  color: var(--global-text-color-light);
+  margin: 0 0 1.25rem;
+}
+.ig .ig-card {
+  background: var(--global-card-bg-color);
+  border: 1px solid var(--global-divider-color);
+  border-radius: var(--ig-radius);
+  padding: 1.25rem;
+}
+
+/* hero */
+.ig-hero {
+  display: grid;
+  grid-template-columns: minmax(0, 1.6fr) minmax(0, 1fr);
+  gap: 2rem;
+  align-items: center;
+}
+.ig-hero h2 {
+  font-size: 1.45rem;
+  line-height: 1.3;
+}
+.ig-authors {
+  color: var(--global-text-color-light);
+  font-size: 0.95rem;
+}
+.ig-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.6rem;
+  margin-top: 1.25rem;
+}
+.ig-btn {
+  display: inline-block;
+  padding: 0.5rem 1rem;
+  border-radius: 999px;
+  border: 1px solid var(--global-theme-color);
+  background: var(--global-theme-color);
+  color: var(--global-bg-color) !important;
+  font-size: 0.9rem;
+  text-decoration: none !important;
+}
+.ig-btn:hover {
+  background: var(--global-hover-color);
+  border-color: var(--global-hover-color);
+}
+.ig-btn-ghost {
+  background: transparent;
+  color: var(--global-theme-color) !important;
+}
+.ig-btn-ghost:hover {
+  color: var(--global-bg-color) !important;
+}
+.ig-eye {
+  text-align: center;
+}
+.ig-eye svg {
+  width: 100%;
+  max-width: 260px;
+  height: auto;
+  touch-action: none;
+}
+.ig-hint {
+  font-size: 0.8rem;
+  color: var(--global-text-color-light);
+  margin: 0.25rem 0 0;
+}
+.ig-eye .ln {
+  fill: none;
+  stroke: var(--global-text-color);
+}
+.ig-eye .ln-faint {
+  fill: none;
+  stroke: var(--global-divider-color);
+}
+.ig-eye .iris {
+  fill: #806d4c;
+}
+.ig-eye .pupil {
+  fill: #0b0b0b;
+}
+
+/* objectives */
+.ig-objectives {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 1rem;
+}
+.ig-objectives .ig-card p {
+  margin: 0;
+}
+.ig-objectives strong {
+  display: block;
+  margin-bottom: 0.25rem;
+}
+.ig-num {
+  display: inline-block;
+  font-size: 0.75rem;
+  color: var(--global-text-color-light);
+  margin-bottom: 0.4rem;
+}
+
+/* pipeline */
+.ig-pipeline {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: stretch;
+  gap: 0.5rem;
+  margin-bottom: 1rem;
+}
+.ig-step {
+  flex: 1 1 140px;
+  text-align: left;
+  font: inherit;
+  color: inherit;
+  background: var(--global-card-bg-color);
+  border: 1px solid var(--global-divider-color);
+  border-radius: var(--ig-radius);
+  padding: 0.75rem 0.9rem;
+  cursor: pointer;
+  position: relative;
+}
+.ig-step small {
+  display: block;
+  color: var(--global-text-color-light);
+  font-size: 0.75rem;
+}
+.ig-step:hover,
+.ig-step:focus-visible {
+  border-color: var(--global-theme-color);
+}
+.ig-step[aria-pressed="true"] {
+  border-color: var(--global-theme-color);
+  box-shadow: inset 0 0 0 1px var(--global-theme-color);
+  background: var(--ig-soft);
+}
+.ig-detail {
+  min-height: 5.5rem;
+}
+.ig-detail h3 {
+  font-size: 1.05rem;
+  margin: 0 0 0.4rem;
+}
+.ig-detail p,
+.ig-detail ul {
+  margin: 0 0 0.4rem;
+}
+.ig-loss {
+  margin-top: 1rem;
+  font-size: 0.95rem;
+  color: var(--global-text-color-light);
+}
+
+/* equation */
+.ig-eq {
+  text-align: center;
+  overflow-x: auto;
+}
+.ig-terms {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.4rem;
+  margin: 0.75rem 0;
+}
+.ig-chip {
+  font: inherit;
+  font-size: 0.9rem;
+  color: inherit;
+  background: transparent;
+  border: 1px solid var(--global-divider-color);
+  border-radius: 999px;
+  padding: 0.2rem 0.75rem;
+  cursor: pointer;
+}
+.ig-chip:hover,
+.ig-chip:focus-visible {
+  border-color: var(--global-theme-color);
+}
+.ig-chip[aria-pressed="true"] {
+  border-color: var(--global-theme-color);
+  background: var(--ig-soft);
+}
+.ig-term-text {
+  min-height: 3rem;
+  margin: 0;
+}
+
+/* results */
+.ig-stats {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 1rem;
+  margin-bottom: 1.25rem;
+}
+.ig-stat .v {
+  font-size: 2rem;
+  line-height: 1.1;
+  font-weight: 500;
+}
+.ig-stat .l {
+  font-size: 0.85rem;
+  color: var(--global-text-color-light);
+}
+.ig-chart-head {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  margin-bottom: 0.5rem;
+}
+.ig-chart-head h3 {
+  font-size: 1.05rem;
+  margin: 0;
+}
+.ig-legend {
+  display: flex;
+  gap: 1rem;
+  font-size: 0.85rem;
+  color: var(--global-text-color-light);
+}
+.ig-legend i {
+  display: inline-block;
+  width: 10px;
+  height: 10px;
+  border-radius: 2px;
+  margin-right: 0.35rem;
+  vertical-align: -1px;
+}
+.ig-linkbtn {
+  font: inherit;
+  font-size: 0.85rem;
+  background: none;
+  border: 0;
+  padding: 0;
+  color: var(--global-theme-color);
+  cursor: pointer;
+  text-decoration: underline;
+}
+.ig-chart {
+  position: relative;
+}
+.ig-chart svg {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+.ig-chart text {
+  fill: var(--global-text-color-light);
+  font-size: 12px;
+}
+.ig-chart .val {
+  fill: var(--global-text-color);
+  font-size: 12px;
+}
+.ig-chart .panel {
+  fill: var(--global-text-color);
+  font-size: 13px;
+  font-weight: 500;
+}
+.ig-chart .grid {
+  stroke: var(--global-divider-color);
+  stroke-width: 1;
+}
+.ig-chart .bar {
+  fill: var(--ig-rest);
+}
+.ig-chart .bar.hl {
+  fill: var(--global-theme-color);
+}
+.ig-chart .hit {
+  fill: transparent;
+  cursor: default;
+  outline: none;
+}
+.ig-chart .hit:hover + .bar,
+.ig-chart .hit:focus + .bar {
+  opacity: 0.8;
+}
+.ig-tip {
+  position: absolute;
+  pointer-events: none;
+  background: var(--global-bg-color);
+  border: 1px solid var(--global-divider-color);
+  border-radius: 8px;
+  padding: 0.4rem 0.6rem;
+  font-size: 0.8rem;
+  line-height: 1.35;
+  box-shadow: 0 4px 14px rgba(0, 0, 0, 0.12);
+  white-space: nowrap;
+  opacity: 0;
+  transform: translate(-50%, -100%);
+  transition: opacity 0.12s;
+}
+.ig-tip strong {
+  font-size: 0.95rem;
+  color: var(--global-text-color);
+}
+.ig-tip span {
+  color: var(--global-text-color-light);
+}
+.ig-note {
+  font-size: 0.85rem;
+  color: var(--global-text-color-light);
+  margin: 0.5rem 0 0;
+}
+.ig-table {
+  width: 100%;
+  font-size: 0.9rem;
+  border-collapse: collapse;
+  margin-top: 0.75rem;
+}
+.ig-table th,
+.ig-table td {
+  text-align: right;
+  padding: 0.3rem 0.5rem;
+  border-bottom: 1px solid var(--global-divider-color);
+}
+.ig-table th:first-child,
+.ig-table td:first-child {
+  text-align: left;
+}
+
+/* scatter figure */
+.ig-models {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.4rem;
+  margin: 0.25rem 0 0.75rem;
+}
+.ig-figure {
+  position: relative;
+  overflow: hidden;
+  border-radius: 8px;
+  background: #fff;
+  line-height: 0;
+}
+.ig-figure img {
+  width: 100%;
+  height: auto;
+}
+.ig-focus {
+  position: absolute;
+  border: 2px solid var(--global-theme-color);
+  border-radius: 6px;
+  box-shadow: 0 0 0 2000px rgba(20, 26, 20, 0.45);
+  transition:
+    left 0.25s,
+    top 0.25s;
+  pointer-events: none;
+}
+.ig-model-text {
+  margin: 0.75rem 0 0;
+  min-height: 3rem;
+}
+
+/* deviations */
+.ig-dev {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) minmax(0, 1.4fr);
+  gap: 1.5rem;
+  align-items: center;
+}
+.ig-auc {
+  text-align: center;
+}
+.ig-auc svg {
+  width: 100%;
+  max-width: 280px;
+  height: auto;
+}
+.ig-auc .track {
+  fill: none;
+  stroke: var(--global-divider-color);
+  stroke-width: 14;
+  stroke-linecap: round;
+}
+.ig-auc .fill {
+  fill: none;
+  stroke: var(--global-theme-color);
+  stroke-width: 14;
+  stroke-linecap: round;
+}
+.ig-auc .tick {
+  stroke: var(--global-text-color-light);
+  stroke-width: 2;
+}
+.ig-auc text {
+  fill: var(--global-text-color-light);
+  font-size: 12px;
+}
+.ig-auc .big {
+  fill: var(--global-text-color);
+  font-size: 34px;
+  font-weight: 500;
+}
+.ig-quote {
+  border-left: 3px solid var(--global-theme-color);
+  padding-left: 1rem;
+  margin: 0;
+}
+.ig-features {
+  list-style: none;
+  padding: 0;
+  margin: 1rem 0 0;
+}
+.ig-features li {
+  display: flex;
+  justify-content: space-between;
+  gap: 1rem;
+  padding: 0.35rem 0;
+  border-bottom: 1px solid var(--global-divider-color);
+  font-size: 0.92rem;
+}
+.ig-features li span:last-child {
+  color: var(--global-text-color-light);
+  white-space: nowrap;
+}
+.ig-collapsible[hidden] {
+  display: none;
+}
+
+/* conclusions */
+.ig-concl {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 1rem;
+}
+.ig-concl .ig-card p {
+  margin: 0;
+}
+.ig-next {
+  border-left: 3px solid var(--global-theme-color);
+  background: var(--ig-soft);
+  border-radius: 0 var(--ig-radius) var(--ig-radius) 0;
+  padding: 1rem 1.25rem;
+  margin-top: 1rem;
+}
+
+/* reveal on scroll (skipped when the reader prefers reduced motion) */
+.ig .ig-reveal {
+  opacity: 0;
+  transform: translateY(12px);
+  transition:
+    opacity 0.5s ease,
+    transform 0.5s ease;
+}
+.ig .ig-reveal.in {
+  opacity: 1;
+  transform: none;
+}
+@media (prefers-reduced-motion: reduce) {
+  .ig .ig-reveal {
+    opacity: 1;
+    transform: none;
+    transition: none;
+  }
+  .ig-focus,
+  .ig-tip {
+    transition: none;
+  }
+}
+
+@media (max-width: 720px) {
+  .ig-hero,
+  .ig-dev {
+    grid-template-columns: 1fr;
+  }
+  .ig-eye {
+    order: -1;
+  }
+  .ig-objectives,
+  .ig-stats,
+  .ig-concl {
+    grid-template-columns: 1fr;
+  }
+}
