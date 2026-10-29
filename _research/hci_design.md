@@ -22,7 +22,7 @@ Each of these has its own page with the design rationale and screens.
 
 <div class="projects">
   <div class="row row-cols-1 row-cols-md-2">
-    {% assign design_projects = site.projects | sort: "importance" %}
+    {% assign design_projects = site.projects | where: "hci", true | sort: "importance" %}
     {% for project in design_projects %}
       {% include projects.liquid %}
     {% endfor %}

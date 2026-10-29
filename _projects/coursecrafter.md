@@ -3,8 +3,9 @@ layout: page
 title: CourseCrafter
 description: AI-assisted authoring of Minecraft Education courses, without code
 img: assets/img/projects/coursecrafter.jpg
-importance: 2
+importance: 3
 related_publications: true
+hci: true
 ---
 
 CourseCrafter is a tool for building courses from your own material with an AI assistant {% cite roumpas_design_2024 roumpas_bridging_2025 %}. The design goal was to make an AI-driven workflow feel unintimidating: a drag-and-drop canvas as the obvious starting point, a prompt bar as the single conversational entry point, and a short, jargon-free action rail (My Files, Save, Start Over, Help, Exit) so nothing about "authoring with AI" feels like a wall of settings. The retro pixel treatment is a deliberate move to make an unfamiliar workflow read as approachable and low-stakes rather than technical.

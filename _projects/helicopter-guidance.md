@@ -3,7 +3,8 @@ layout: page
 title: Helicopter Guidance Interface
 description: concept for a search-and-rescue helicopter flight display
 img: assets/img/projects/helicopter-guidance.jpg
-importance: 3
+importance: 5
+hci: true
 ---
 
 A helicopter mission interface has to stay legible when the pilot has almost no attention to spare. The challenge here was reducing a dense 3D flight situation to what matters in the moment: a satellite map with hazard and coverage zones marked in high-contrast red, the route to target drawn as a single bold green line, and a vertical altitude tape that reads at a glance. Persistent telemetry (TAS, GS, heading, ALT, UTC, coordinates) sits along the top, and the controls are pushed to edge rails — Camera, Data, Charts on the left; Radio, System, Mission on the right — so the map itself never gets crowded.

@@ -2,7 +2,7 @@
 layout: page
 permalink: /publications/
 title: publications
-description: publications in reverse chronological order, with open datasets at the <a href="#data">end</a>.
+description: Publications in reverse chronological order, with open datasets at the end.
 nav: true
 nav_order: 1
 ---

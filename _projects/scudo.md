@@ -4,6 +4,7 @@ title: SCUDO
 description: Horizon Europe · operator dashboards for disruption-resilient transport
 img: assets/img/projects/scudo.jpg
 importance: 1
+hci: true
 ---
 
 SCUDO (_Safe and Comprehensive Urban Development and Transport Management for Disruption-resilient Operations_) is a Horizon Europe research and
