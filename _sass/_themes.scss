@@ -1,0 +1,202 @@
+/*******************************************************************************
+ * Pine Shade: local override of al_folio_core's _themes.scss (v1.0.11).
+ * Dark mode follows the Pine Shade Thunderbird theme, built around #2E372E;
+ * light mode is a pale grey-green with the same pine accent.
+ * Only the colour tokens differ from the gem's file. If you upgrade
+ * al_folio_core, diff this against the gem's _sass/_themes.scss.
+ ******************************************************************************/
+@use "variables" as v;
+@use "sass:color";
+
+:root {
+  color-scheme: light;
+  --global-bg-color: #f5f8f4;
+  --global-code-bg-color: #e8efe6;
+  --global-text-color: #1b211b;
+  --global-text-color-light: #5f735f;
+  --global-theme-color: #3a5a40;
+  --global-hover-color: #2f4a35;
+  --global-hover-text-color: #f0f5ee;
+  --global-footer-bg-color: #2e372e;
+  --global-footer-text-color: #b8c6b4;
+  --global-footer-link-color: #f0f5ee;
+  --global-distill-app-color: #5f735f;
+  --global-divider-color: rgba(46, 55, 46, 0.12);
+  --global-card-bg-color: #ffffff;
+  --global-highlight-color: #{v.$red-color-dark};
+  --global-back-to-top-bg-color: rgba(46, 55, 46, 0.4);
+  --global-back-to-top-text-color: #ffffff;
+  --global-newsletter-bg-color: #ffffff;
+  --global-newsletter-text-color: #1b211b;
+
+  --global-tip-block: #48724c;
+  --global-tip-block-bg: #e3efe1;
+  --global-tip-block-text: #2f4a35;
+  --global-tip-block-title: #3a5a40;
+  --global-warning-block: #e7c000;
+  --global-warning-block-bg: #fff8d8;
+  --global-warning-block-text: #6b5900;
+  --global-warning-block-title: #b29400;
+  --global-danger-block: #c00;
+  --global-danger-block-bg: #ffe0e0;
+  --global-danger-block-text: #600;
+  --global-danger-block-title: #c00;
+
+  #light-toggle-system {
+    display: inline-block;
+  }
+
+  #light-toggle-dark {
+    display: none;
+  }
+
+  #light-toggle-light {
+    display: none;
+  }
+
+  .only-light {
+    display: block;
+  }
+
+  .only-dark {
+    display: none;
+  }
+
+  #back-to-top {
+    color: var(--global-back-to-top-text-color);
+    background: var(--global-back-to-top-bg-color);
+    bottom: v.$back-to-top-bottom;
+    right: v.$back-to-top-right;
+    height: v.$back-to-top-height;
+    width: v.$back-to-top-width;
+    z-index: v.$back-to-top-z-index;
+  }
+}
+
+html[data-theme="dark"] {
+  color-scheme: dark;
+  --global-bg-color: #2e372e;
+  --global-code-bg-color: #263026;
+  --global-text-color: #dce6d9;
+  --global-text-color-light: #b8c6b4;
+  --global-theme-color: #9cc59a;
+  --global-hover-color: #b7d9b4;
+  --global-hover-text-color: #1b211b;
+  --global-footer-bg-color: #232a23;
+  --global-footer-text-color: #b8c6b4;
+  --global-footer-link-color: #f0f5ee;
+  --global-distill-app-color: #b8c6b4;
+  --global-divider-color: #4a5a4a;
+  --global-card-bg-color: #343e34;
+  --global-back-to-top-bg-color: rgba(220, 230, 217, 0.5);
+  --global-back-to-top-text-color: #1b211b;
+  --global-newsletter-bg-color: #343e34;
+  --global-newsletter-text-color: #dce6d9;
+
+  --global-tip-block: #7fb77e;
+  --global-tip-block-bg: #2f4a35;
+  --global-tip-block-text: #dce6d9;
+  --global-tip-block-title: #b7d9b4;
+  --global-warning-block: #e7c000;
+  --global-warning-block-bg: #6b5900;
+  --global-warning-block-text: #fff2af;
+  --global-warning-block-title: #fff8d8;
+  --global-danger-block: #c00;
+  --global-danger-block-bg: #600;
+  --global-danger-block-text: #ffb9b9;
+  --global-danger-block-title: #ffe0e0;
+
+  .only-light {
+    display: none;
+  }
+
+  .only-dark {
+    display: block;
+  }
+}
+
+html[data-theme-setting="dark"] {
+  #light-toggle-system {
+    display: none;
+  }
+
+  #light-toggle-dark {
+    display: inline-block;
+  }
+
+  #light-toggle-light {
+    display: none;
+  }
+
+  #back-to-top {
+    color: var(--global-back-to-top-text-color);
+    background: var(--global-back-to-top-bg-color);
+  }
+}
+
+html[data-theme-setting="light"] {
+  #light-toggle-system {
+    display: none;
+  }
+
+  #light-toggle-dark {
+    display: none;
+  }
+
+  #light-toggle-light {
+    display: inline-block;
+  }
+}
+
+.fa-half-sun-moon {
+  position: relative;
+  display: inline-block;
+
+  --fa-font: var(--fa-font-solid);
+  speak: none;
+  font-style: normal;
+  font-variant: normal;
+  text-rendering: auto;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+
+  width: 1em;
+  height: 1em;
+}
+
+.fa-half-sun-moon::before,
+.fa-half-sun-moon::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  top: -0.5px;
+  bottom: -0.5px;
+  text-align: center;
+  line-height: 1em;
+  clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
+  font: var(--fa-font);
+}
+
+/* Left half: MOON */
+.fa-half-sun-moon::before {
+  content: "\f111";
+  color: var(--global-text-color);
+  clip-path: polygon(0 0, calc(50% - 0.5px) 0, calc(50% - 0.5px) 100%, 0 100%);
+}
+
+/* Right half: SUN */
+.fa-half-sun-moon::after {
+  content: "\f185";
+  color: var(--global-text-color);
+  clip-path: polygon(calc(50% + 0.5px) 0, 100% 0, 100% 100%, calc(50% + 0.5px) 100%);
+  right: -1.5px; /* slight overflow to avoid right-edge clipping */
+  transform: translateX(-1px); /* visually re-center the sun half */
+}
+
+#light-toggle:hover .fa-half-sun-moon::before {
+  color: var(--global-theme-color);
+}
+
+#light-toggle:hover .fa-half-sun-moon::after {
+  color: var(--global-theme-color);
+}
