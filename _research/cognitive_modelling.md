@@ -10,6 +10,8 @@ related_publications: true
 
 I treat the eye as an instrument. Gaze position, fixation patterns, blink dynamics, and pupil response are all measurable signals, and my research asks how much we can infer from them about attention and cognitive load — and how well we can model and predict them.
 
+> **Poster:** an [interactive version](/posters/greekchi-cychi-2026/) of our ACM GreekCHI-CYCHI Symposium 2026 poster, on PINN gaze prediction and what the model's misses reveal.
+
 Coming from physics, I lean on physics-informed approaches. Eye movement is one of the rare human behaviours with a genuine mechanical description: the eye is a near-perfect sphere rotating about a fixed centre, and Donders' and Listing's laws constrain which orientations it can actually take. That makes it an unusually good candidate for physics-informed neural networks (PINNs), which are widely used in the natural sciences but rarely applied in HCI — largely because most HCI problems have no defensible governing equations. Eye tracking does.
 
 **Methods & tools:** Python, PyTorch, physics-informed neural networks, Tobii Pro Spectrum & Pro Lab, SHAP, scikit-learn, MNE.
