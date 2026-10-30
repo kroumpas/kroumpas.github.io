@@ -1,0 +1,40 @@
+name: 📰 News item
+description: Add a news item to the site. It appears on the about page and on /news/.
+title: "News: "
+body:
+  - type: input
+    id: date
+    attributes:
+      label: Date
+      description: YYYY-MM-DD. Leave empty for today. For an upcoming event, use today's date and say when it happens in the text.
+      placeholder: "2026-11-07"
+  - type: textarea
+    id: text
+    attributes:
+      label: Text
+      description: One or two sentences. Markdown works, for example [AICCONF 2026](https://doi.org/...) or *a title in italics*.
+      placeholder: We presented our poster on ... at ...
+    validations:
+      required: true
+  - type: input
+    id: link
+    attributes:
+      label: Link (optional)
+      description: Added as "More" at the end of the text.
+      placeholder: https://
+  - type: textarea
+    id: image
+    attributes:
+      label: Image (optional)
+      description: Drag and drop one PNG or JPG here, such as the event's logo or a photo.
+  - type: dropdown
+    id: fit
+    attributes:
+      label: Image type
+      description: Logos are shown whole on a white tile. Photos are cropped to fill the tile.
+      options:
+        - Logo
+        - Photo
+      default: 0
+    validations:
+      required: true

@@ -1,0 +1,145 @@
+{% comment %}
+  Local override of al_folio_core's news.liquid (1.0.11). Adds an optional thumbnail per item:
+    thumbnail: assets/img/news/file.png    thumbnail_fit: contain (logos, default) | cover (photos)
+    thumbnail_alt: text                    badge: ESWA   (text tile when there is no image)
+  When upgrading al_folio_core, compare this file with the gem's version.
+{% endcomment %}
+<style>
+  .news .table,
+  .news .table th,
+  .news .table td {
+    color: var(--global-text-color);
+    vertical-align: middle;
+  }
+  .news .table th.news-date {
+    width: 8.5rem;
+    white-space: nowrap;
+  }
+  .news-item {
+    display: flex;
+    align-items: center;
+    gap: 0.85rem;
+  }
+  .news-thumb {
+    flex: 0 0 96px;
+    width: 96px;
+    height: 54px;
+    border-radius: 6px;
+    overflow: hidden;
+    background: #fff;
+    border: 1px solid var(--global-divider-color);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .news-thumb figure,
+  .news-thumb picture {
+    display: block;
+    width: 100%;
+    height: 100%;
+    margin: 0;
+  }
+  .news-thumb img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    padding: 5px;
+  }
+  .news-thumb-cover img {
+    object-fit: cover;
+    padding: 0;
+  }
+  .news-thumb-badge {
+    background: var(--global-theme-color);
+    border-color: transparent;
+    color: var(--global-hover-text-color);
+    font-size: 0.85rem;
+    font-weight: 600;
+    letter-spacing: 0.04em;
+  }
+  .news-thumb-empty {
+    background: transparent;
+    border-color: transparent;
+  }
+  .news-text {
+    flex: 1 1 auto;
+    min-width: 0;
+  }
+  @media (max-width: 576px) {
+    .news .table tr,
+    .news .table th.news-date,
+    .news .table td {
+      display: block;
+      width: auto;
+    }
+    .news .table th.news-date {
+      padding-bottom: 0;
+    }
+    .news .table td {
+      padding-top: 0.3rem;
+      padding-bottom: 0.9rem;
+    }
+    .news-item {
+      align-items: flex-start;
+    }
+    .news-thumb {
+      margin-top: 0.2rem;
+    }
+    .news-thumb {
+      flex-basis: 64px;
+      width: 64px;
+      height: 36px;
+    }
+    .news-thumb-badge {
+      font-size: 0.7rem;
+    }
+  }
+</style>
+<div class="news">
+  {% if site.news != blank %}
+    {% assign news_size = site.news | size %}
+    <div
+      class="table-responsive"
+      {% if include.limit and page.announcements.scrollable and news_size > 3 %}
+        style="max-height: 60vw"
+      {% endif %}
+    >
+      <table class="table table-sm table-borderless">
+        {% assign news = site.news | reverse %}
+        {% if include.limit and page.announcements.limit %}
+          {% assign news_limit = page.announcements.limit %}
+        {% else %}
+          {% assign news_limit = news_size %}
+        {% endif %}
+        {% for item in news limit: news_limit %}
+          <tr>
+            <th scope="row" class="news-date">{{ item.date | date: '%b %d, %Y' }}</th>
+            <td>
+              <div class="news-item">
+                {% if item.thumbnail %}
+                  <div class="news-thumb{% if item.thumbnail_fit == 'cover' %} news-thumb-cover{% endif %}">
+                    {% include figure.liquid path=item.thumbnail sizes="96px" alt=item.thumbnail_alt %}
+                  </div>
+                {% elsif item.badge %}
+                  <div class="news-thumb news-thumb-badge" aria-hidden="true">{{ item.badge }}</div>
+                {% else %}
+                  <div class="news-thumb news-thumb-empty" aria-hidden="true"></div>
+                {% endif %}
+                <div class="news-text">
+                  {% if item.inline %}
+                    {{ item.content | remove: '<p>' | remove: '</p>' | emojify }}
+                  {% else %}
+                    <a class="news-title" href="{{ item.url | relative_url }}">{{ item.title }}</a>
+                  {% endif %}
+                </div>
+              </div>
+            </td>
+          </tr>
+        {% endfor %}
+      </table>
+    </div>
+  {% else %}
+    <p>No news so far...</p>
+  {% endif %}
+</div>
