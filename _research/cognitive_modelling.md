@@ -2,7 +2,6 @@
 layout: page
 title: Cognitive Modelling
 description: PINNs, gaze prediction, and eye movements as signals of mental demand.
-img: assets/img/research/cognitive-modelling.png
 importance: 1
 category: cognitive modelling
 related_publications: true

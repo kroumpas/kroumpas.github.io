@@ -2,7 +2,6 @@
 layout: page
 title: HCI & Interaction Design
 description: Dashboards and interfaces that turn dense project data into something usable.
-img: assets/img/research/hci-design.png
 importance: 3
 category: hci and design
 related_publications: true
