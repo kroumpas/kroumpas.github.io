@@ -11,6 +11,8 @@ nav_order: 1
 
 <!-- Bibsearch Feature -->
 
+<p><a href="{{ '/footprint/' | relative_url }}">See the citations, venues and co-authors behind these papers →</a></p>
+
 <div class="publications">
 
 {% bibliography %}

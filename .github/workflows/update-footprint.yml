@@ -1,0 +1,56 @@
+name: Update publication footprint
+
+# Refreshes assets/json/footprint.json (the /footprint/ page) from OpenAlex every Monday.
+# If OpenAlex starts refusing keyless requests, add a free API key from
+# https://openalex.org/settings as the repository secret OPENALEX_API_KEY.
+
+on:
+  schedule:
+    - cron: "17 3 * * 1" # Monday 03:17 UTC
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  actions: write
+
+jobs:
+  update-footprint:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v7
+
+      - name: Set up Python
+        uses: actions/setup-python@v6
+        with:
+          python-version: "3.13"
+
+      - name: Fetch from OpenAlex
+        env:
+          OPENALEX_API_KEY: ${{ secrets.OPENALEX_API_KEY }}
+        run: python bin/update_footprint.py
+
+      - name: Commit if the numbers changed
+        id: commit
+        run: |
+          git config --local user.email "actions@github.com"
+          git config --local user.name "GitHub Actions"
+          # The file carries today's date, so ignore that line when deciding whether anything changed.
+          if [ -z "$(git diff --ignore-matching-lines='"generated"' -- assets/json/footprint.json)" ]; then
+            echo "No change in the OpenAlex data." >> $GITHUB_STEP_SUMMARY
+            echo "changed=false" >> $GITHUB_OUTPUT
+          else
+            git add assets/json/footprint.json
+            git commit -m "Update publication footprint from OpenAlex"
+            git push
+            echo "Footprint data updated." >> $GITHUB_STEP_SUMMARY
+            echo "changed=true" >> $GITHUB_OUTPUT
+          fi
+
+      # Pushes made with GITHUB_TOKEN don't trigger other workflows, so start the deploy explicitly.
+      - name: Redeploy the site
+        if: steps.commit.outputs.changed == 'true'
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: gh workflow run deploy.yml --ref ${{ github.ref_name }}

@@ -14,3 +14,5 @@ _data/citations.yml
 
 # Delivered by the Claude desktop app; not part of the site
 Claude outputs/
+# generated weekly by bin/update_footprint.py
+assets/json/footprint.json
