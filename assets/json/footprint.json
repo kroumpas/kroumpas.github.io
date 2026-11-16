@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-15",
+ "generated": "2026-11-16",
  "source": "OpenAlex (CC0)",
  "author": {
   "id": "A5115742780",
@@ -19,7 +19,7 @@
    "open_access": true,
    "cited_by_count": 0,
    "citations_by_year": {},
-   "fwci": 0,
+   "fwci": 0.0,
    "top10": false,
    "position": "middle",
    "n_authors": 31,
@@ -59,7 +59,7 @@
    "open_access": true,
    "cited_by_count": 0,
    "citations_by_year": {},
-   "fwci": 0,
+   "fwci": 0.0,
    "top10": false,
    "position": "first",
    "n_authors": 2,
@@ -84,7 +84,7 @@
    "open_access": true,
    "cited_by_count": 0,
    "citations_by_year": {},
-   "fwci": 0,
+   "fwci": 0.0,
    "top10": false,
    "position": "first",
    "n_authors": 4,
@@ -119,7 +119,7 @@
    "citations_by_year": {
     "2025": 1
    },
-   "fwci": 3.26,
+   "fwci": 3.2641,
    "top10": false,
    "position": "first",
    "n_authors": 2,
@@ -147,7 +147,7 @@
     "2026": 7,
     "2025": 1
    },
-   "fwci": 3.69,
+   "fwci": 3.6804,
    "top10": true,
    "position": "first",
    "n_authors": 5,
@@ -187,7 +187,7 @@
     "2026": 3,
     "2025": 4
    },
-   "fwci": 3.23,
+   "fwci": 3.2203,
    "top10": true,
    "position": "middle",
    "n_authors": 4,
@@ -249,7 +249,7 @@
    "open_access": false,
    "cited_by_count": 0,
    "citations_by_year": {},
-   "fwci": 0,
+   "fwci": 0.0,
    "top10": false,
    "position": "first",
    "n_authors": 2,
@@ -263,6 +263,77 @@
   }
  ],
  "citing": [
+  {
+   "id": "W7223346700",
+   "title": "Eye Gaze Tracking for Real-World Systems: A Systematic Review",
+   "year": 2026,
+   "date": "2026-10-23",
+   "venue": "Journal of Eye Movement Research",
+   "countries": [
+    "CA",
+    "IN"
+   ],
+   "cites": [
+    "W4409351880"
+   ],
+   "self": false
+  },
+  {
+   "id": "W7221816495",
+   "title": "Multiphysics-Guided Neural Networks Integrating Damage Mechanics and Thermodynamic Dissipation for PMMA Plate Impact Analysis Under Pressure Loading",
+   "year": 2026,
+   "date": "2026-10-14",
+   "venue": "Applied Sciences",
+   "countries": [
+    "CN"
+   ],
+   "cites": [
+    "W4409351880"
+   ],
+   "self": false
+  },
+  {
+   "id": "W7203500242",
+   "title": "The New Quality of Translation Productivity and the Transformation of Teaching Paradigms Based on Large Language Models",
+   "year": 2026,
+   "date": "2026-08-13",
+   "venue": "Advanced Electromagnetics",
+   "countries": [
+    "CN"
+   ],
+   "cites": [
+    "W4405987345"
+   ],
+   "self": false
+  },
+  {
+   "id": "W7165729951",
+   "title": "A Review of Forward Numerical Methods for Electroencephalography (EEG) Data",
+   "year": 2026,
+   "date": "2026-06-23",
+   "venue": "The Nucleus",
+   "countries": [
+    "PK"
+   ],
+   "cites": [
+    "W4409351880"
+   ],
+   "self": false
+  },
+  {
+   "id": "W7160205514",
+   "title": "Sure About That Line? Approaching Confidence-Based, Real-Time Line Assignment in Reading Gaze Data",
+   "year": 2026,
+   "date": "2026-05-01",
+   "venue": "Proceedings of the ACM on Computer Graphics and Interactive Techniques",
+   "countries": [
+    "DE"
+   ],
+   "cites": [
+    "W4405987345"
+   ],
+   "self": false
+  },
   {
    "id": "W7169558132",
    "title": "Modelling Eye Mechanics Using Eye-tracking Glasses and Deep Learning",
@@ -278,123 +349,10 @@
    "self": true
   },
   {
-   "id": "W7129096694",
-   "title": "Physics informed neural network for inertia effect estimation in tunnel boring machine considering time delay",
-   "year": 2026,
-   "date": null,
-   "venue": "Applied Soft Computing",
-   "countries": [
-    "CN"
-   ],
-   "cites": [
-    "W4409351880"
-   ],
-   "self": false
-  },
-  {
-   "id": "W7144306052",
-   "title": "High-frequency gaze tracking and estimation with event-based camera and lightweight framework for edge interactive devices",
-   "year": 2026,
-   "date": null,
-   "venue": "Expert Systems with Applications",
-   "countries": [
-    "CN"
-   ],
-   "cites": [
-    "W4409351880"
-   ],
-   "self": false
-  },
-  {
-   "id": "W7223346700",
-   "title": "Eye Gaze Tracking for Real-World Systems: A Systematic Review",
-   "year": 2026,
-   "date": null,
-   "venue": "Journal of Eye Movement Research",
-   "countries": [
-    "CA",
-    "IN"
-   ],
-   "cites": [
-    "W4409351880"
-   ],
-   "self": false
-  },
-  {
-   "id": "W7221816495",
-   "title": "Multiphysics-Guided Neural Networks Integrating Damage Mechanics and Thermodynamic Dissipation for PMMA Plate Impact Analysis Under Pressure Loading",
-   "year": 2026,
-   "date": null,
-   "venue": "Applied Sciences",
-   "countries": [
-    "CN"
-   ],
-   "cites": [
-    "W4409351880"
-   ],
-   "self": false
-  },
-  {
-   "id": "W7165729951",
-   "title": "A Review of Forward Numerical Methods for Electroencephalography (EEG) Data",
-   "year": 2026,
-   "date": null,
-   "venue": "The Nucleus",
-   "countries": [
-    "PK"
-   ],
-   "cites": [
-    "W4409351880"
-   ],
-   "self": false
-  },
-  {
-   "id": "W7214992694",
-   "title": "Robust Monocular Gaze Estimation Under Free Head Motion via Multi-Pose Calibration and State-Dependent Fusion",
-   "year": 2026,
-   "date": null,
-   "venue": "IEEE Open Journal on Immersive Displays",
-   "countries": [
-    "CN"
-   ],
-   "cites": [
-    "W4409351880"
-   ],
-   "self": false
-  },
-  {
-   "id": "W7203500242",
-   "title": "The New Quality of Translation Productivity and the Transformation of Teaching Paradigms Based on Large Language Models",
-   "year": 2026,
-   "date": null,
-   "venue": "Advanced Electromagnetics",
-   "countries": [
-    "CN"
-   ],
-   "cites": [
-    "W4405987345"
-   ],
-   "self": false
-  },
-  {
-   "id": "W7160205514",
-   "title": "Sure About That Line? Approaching Confidence-Based, Real-Time Line Assignment in Reading Gaze Data",
-   "year": 2026,
-   "date": null,
-   "venue": "Proceedings of the ACM on Computer Graphics and Interactive Techniques",
-   "countries": [
-    "DE"
-   ],
-   "cites": [
-    "W4405987345"
-   ],
-   "self": false
-  },
-  {
    "id": "W7153745931",
    "title": "Exploring Interface Design of MR Translation System for Everyday Interaction",
    "year": 2026,
-   "date": null,
+   "date": "2026-04-13",
    "venue": "CHI Conference on Human Factors in Computing Systems",
    "countries": [
     "KR"
@@ -405,10 +363,10 @@
    "self": false
   },
   {
-   "id": "W4416745964",
-   "title": "Temporal-frequency enhanced fourier neural operator and collaborative adversarial learning for multi-physics-coupled transient simulation of natural gas pipelines",
-   "year": 2025,
-   "date": null,
+   "id": "W7144306052",
+   "title": "High-frequency gaze tracking and estimation with event-based camera and lightweight framework for edge interactive devices",
+   "year": 2026,
+   "date": "2026-03-31",
    "venue": "Expert Systems with Applications",
    "countries": [
     "CN"
@@ -419,33 +377,44 @@
    "self": false
   },
   {
-   "id": "W4414955948",
-   "title": "Improving Perception of Usability Through User Interface Design Patterns to Optimize Information Architecture for Cognitive Benefits and User Satisfaction in Massive Open Online Courses",
-   "year": 2025,
-   "date": null,
-   "venue": "IEEE Access",
+   "id": "W7129096694",
+   "title": "Physics informed neural network for inertia effect estimation in tunnel boring machine considering time delay",
+   "year": 2026,
+   "date": "2026-02-16",
+   "venue": "Applied Soft Computing",
    "countries": [
-    "ES",
-    "IT",
-    "PK",
-    "SA"
+    "CN"
    ],
    "cites": [
-    "W4405987345"
+    "W4409351880"
    ],
    "self": false
   },
   {
-   "id": "W4409622723",
-   "title": "A Transformer-GAN Based Approach for Evaluating and Improving High School Students' English Translation Skills",
-   "year": 2025,
-   "date": null,
-   "venue": "Journal of Information Systems Engineering & Management",
+   "id": "W7214992694",
+   "title": "Robust Monocular Gaze Estimation Under Free Head Motion via Multi-Pose Calibration and State-Dependent Fusion",
+   "year": 2026,
+   "date": "2026-01-01",
+   "venue": "IEEE Open Journal on Immersive Displays",
    "countries": [
-    "IR"
+    "CN"
    ],
    "cites": [
-    "W4405987345"
+    "W4409351880"
+   ],
+   "self": false
+  },
+  {
+   "id": "W4416745964",
+   "title": "Temporal-frequency enhanced fourier neural operator and collaborative adversarial learning for multi-physics-coupled transient simulation of natural gas pipelines",
+   "year": 2025,
+   "date": "2025-11-27",
+   "venue": "Expert Systems with Applications",
+   "countries": [
+    "CN"
+   ],
+   "cites": [
+    "W4409351880"
    ],
    "self": false
   },
@@ -453,7 +422,7 @@
    "id": "W4413019758",
    "title": "Personalization Techniques in HCI: Leveraging Multimodal Physiological and Behavioral Data for Adaptive Interfaces",
    "year": 2025,
-   "date": null,
+   "date": "2025-08-06",
    "venue": "IGI Global eBooks",
    "countries": [],
    "cites": [
@@ -462,10 +431,27 @@
    "self": false
   },
   {
+   "id": "W7221296317",
+   "title": "THE EFFECTIVENESS OF AI-INTEGRATED GAME-BASED LEARNING MODELS IN ENHANCING STUDENT MOTIVATION",
+   "year": 2025,
+   "date": "2025-06-01",
+   "venue": "Al-Hijr Journal of Adulearn World",
+   "countries": [
+    "BR",
+    "ID",
+    "MY",
+    "SG"
+   ],
+   "cites": [
+    "W4412164659"
+   ],
+   "self": false
+  },
+  {
    "id": "W4413067585",
    "title": "Hybrid Machine Learning Models for Improving EFL Reading Fluency via Real-Time Feedback in Adaptive Systems",
    "year": 2025,
-   "date": null,
+   "date": "2025-05-09",
    "venue": "Global Conference in Emerging Technology (GINOTECH)",
    "countries": [
     "IN"
@@ -476,19 +462,33 @@
    "self": false
   },
   {
-   "id": "W7221296317",
-   "title": "The Effectiveness of AI-Integrated Game-Based Learning Models in Enhancing Student Motivation",
+   "id": "W4409622723",
+   "title": "A Transformer-GAN Based Approach for Evaluating and Improving High School Students' English Translation Skills",
    "year": 2025,
-   "date": null,
-   "venue": "Al-Hijr Journal of Adulearn World",
+   "date": "2025-04-17",
+   "venue": "Journal of Information Systems Engineering & Management",
    "countries": [
-    "BR",
-    "ID",
-    "MY",
-    "SG"
+    "IR"
    ],
    "cites": [
-    "W4412164659"
+    "W4405987345"
+   ],
+   "self": false
+  },
+  {
+   "id": "W4414955948",
+   "title": "Improving Perception of Usability Through User Interface Design Patterns to Optimize Information Architecture for Cognitive Benefits and User Satisfaction in Massive Open Online Courses",
+   "year": 2025,
+   "date": "2025-01-01",
+   "venue": "IEEE Access",
+   "countries": [
+    "ES",
+    "IT",
+    "PK",
+    "SA"
+   ],
+   "cites": [
+    "W4405987345"
    ],
    "self": false
   }
