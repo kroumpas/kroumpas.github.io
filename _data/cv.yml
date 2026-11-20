@@ -1,6 +1,7 @@
 # ============================================================
 #  kroumpas.github.io — CV data
 #  Updated 5 Aug 2026 against ORCID 0009-0006-4187-438X
+#  20 Nov 2026: reframed for innovation / hackathon audience (Apps4Athens 3.0)
 #  Source of truth: MASTER_CV_RECORD.md
 #
 #  Items marked "# CONFIRM:" need checking against the published
@@ -9,17 +10,19 @@
 
 cv:
   name: Konstantinos Roumpas
-  label: PhD Candidate · HCI & Applied ML
+  label: Researcher & Technical Manager · HCI & Applied ML
   location: Athens, Greece
   # phone deliberately omitted — it is on the PDF CV, but a public
   # site invites scraping. Add `phone: "+306949286258"` if you want it.
   image: ""
   summary: >-
-    PhD candidate building systems that infer a user's cognitive state — attention,
-    comprehension, stress — from eye-tracking and physiological signals, and adapt to it.
-    I work across the full stack: sensor pipelines, machine learning, validation studies
-    with real users, and the interfaces that expose the result. Five years across EU-funded
-    R&D, from leading a development team of seven to writing Horizon Europe proposals.
+    Researcher and technical manager who turns multi-source data and real users into systems
+    people can act on. Five years across EU-funded R&D: operator dashboards, user evaluations,
+    anomaly detection, and the Horizon Europe and Erasmus+ proposals behind them. In parallel,
+    a PhD on inferring cognitive state — attention, comprehension, stress — from eye-tracking
+    and physiological signals. Trained as a physicist; strongest at reading a project's
+    technical big picture, spotting what has been missed, and finding the shorter path to a
+    working result.
   social_networks:
     - network: GitHub
       username: kroumpas
@@ -74,10 +77,12 @@ cv:
         end_date: present
         summary: Technical direction and research strategy across multiple EU Horizon-funded projects, with primary responsibility for proposal writing and grant management.
         highlights:
-          - Write and manage research proposals for Horizon Europe programmes, owning the process from concept through submission.
+          - Write Horizon Europe proposals (work packages, impact, technical sections, Gantt planning) and complete Erasmus+ proposals end to end.
           - Lead technical direction across concurrent EU-funded projects, coordinating a cross-functional team of researchers and engineers.
           - Set research strategy and translate funded project objectives into working AI/ML systems and deliverables.
-          - Design dashboards and interfaces that consolidate outputs from separate project modules into a single operational view.
+          - SCUDO (Horizon Europe) — design the operator dashboards for disruption-resilient urban transport, with use cases in Athens, Bavaria, Amsterdam and Venice.
+          - BatteReverse (Horizon Europe) — ran the user evaluation and managed the integration of the app's modules, working out which data feeds which module and how it is visualised.
+          - SMARTIN — built an Isolation Forest model that flags anomalous vessel paths on the Danube.
           - Serve as technical point of contact for consortium partners across multiple countries.
 
       - company: University of Patras — Software Quality & HCI Laboratory
@@ -115,6 +120,16 @@ cv:
           - Designed and evaluated an AI-assisted course authoring tool, validated with 10 educators using the System Usability Scale and semi-structured interviews.
           - Organised and led educator workshops and Erasmus+ Learning, Teaching and Training Activities across partner countries.
           - Ran learning-analytics data analysis in Python and authored technical documentation for project reporting and audit.
+
+    # ------------------------------------------------------------
+    # Custom section: generic template, label/details pairs (see Reviewing below).
+    Hackathons & Mentoring:
+      - label: Apps4Athens 3.0 Gov Hackathon · City of Athens, 2026
+        details: Mentor for teams building open-data, digital-governance and AI solutions for the city
+      - label: 3rd Social Hackathon & Social Innovation Lab · 2023
+        details: With team tinyTerrain (health and safety through gamification) — one of five teams awarded at the Thessaloniki final, after a five-month acceleration programme
+      - label: Coding Challenge for Ukraine · EDFA, 2022
+        details: Participant in a pan-European online hackathon for a more resilient Ukraine and Europe
 
     # ------------------------------------------------------------
     Projects:
@@ -267,10 +282,12 @@ cv:
         keywords: "Figma, dashboard and interaction design, data visualization, Git, Jupyter, Power BI, Microsoft Azure, Moodle"
 
     # ------------------------------------------------------------
-    # "Reviews" is a custom section name, so al-folio renders it with its
+    # "Reviewing & Evaluation" is a custom section name, so al-folio renders it with its
     # generic template. That template only understands `bullet`, or the
     # `label`/`details` pair below - `name`/`keywords`/`icon` are ignored.
-    Reviews:
+    Reviewing & Evaluation:
+      - label: Horizon Europe · European Commission
+        details: Registered expert evaluator
       - label: International Journal of Human-Computer Interaction
         details: Peer reviewer — one review completed (2026)
       - label: Cognitive Systems Research (Elsevier)
