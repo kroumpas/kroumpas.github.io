@@ -29,4 +29,6 @@ At [Frontier Innovations](https://www.frontier-innovations.com/) and through my 
 
 I'm comfortable across the whole arc of a project: experimental design, data collection, modelling in Python and PyTorch, and the UX evaluation that tells you whether any of it actually helped. Alongside the research, I coordinate EU-funded (Horizon) projects and mentor master's students through study design, analysis, and publication.
 
-If you're working on gaze, cognitive load, or human-centred AI — or just want to talk shop — feel free to get in touch!
+Much of that project work is applied. I've designed operator dashboards for disruption-resilient transport in Athens and Venice ([SCUDO]({{ '/projects/scudo/' | relative_url }})), run the user evaluation for a battery passport and diagnostics app ([BatteReverse]({{ '/projects/battereverse/' | relative_url }})), and written the proposals that get projects like these funded. I've also been on both sides of a hackathon: my team [tinyTerrain]({{ '/projects/tiny-terrain/' | relative_url }}) was one of five awarded at the 2023 Social Hackathon's Social Innovation Lab, and I now mentor teams at civic hackathons such as Apps4Athens.
+
+If you're working on gaze, cognitive load, or human-centred AI, building something for a city or a public service, or putting together an EU consortium — or just want to talk shop — feel free to get in touch!

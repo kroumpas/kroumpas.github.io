@@ -1,11 +1,15 @@
 ---
 layout: page
 title: Tiny Terrain
-description: brand and marketing site for a studio teaching safety through Minecraft
+description: awarded team, Social Innovation Lab 2023 · brand site for safety training through Minecraft
 img: assets/img/projects/tiny-terrain.jpg
 importance: 6
 hci: true
 ---
+
+tinyTerrain is a team of friends teaching health and safety through gamification. We entered the 3rd Social Hackathon (May 2023, with technical and
+organisational support from Crowdpolicy), went on through the Social Innovation Lab, its five-month acceleration programme, and were one of the five teams
+awarded at the final in Thessaloniki in December 2023.
 
 This is a full marketing site for an education studio that teaches occupational and campus safety through Minecraft-based gamification. Here the design problem was voice: land a distinct pixel-art brand while keeping a content-heavy page — hero, three service areas, portfolio imagery, and contact — clearly structured and readable. The angled section breaks and consistent card framing carry the visitor down the page without the styling ever getting in the way of the copy.
 
